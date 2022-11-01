@@ -37,6 +37,26 @@
     <section id="form-sign-up">
         <div class="head-form">
             <h1>Be part of our team</h1>
+            <form action="/assets/action_page.php" method="post" class="form1" name="Fill our form" target="_top" rel="noopener">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter First Name" autofocus required>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter E-Mail" required>
+                <label for="confirm-email">Confirm E-Mail</label>
+                <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your e-mail" required><br>
+                <br>
+                <div class="gender">Gender:
+                    <label for="male" id="male">Male:</label>
+                    <input type="radio" name="gender" class="male" value="male">
+                    <label for="female" id="female">Female:</label>
+                    <input type="radio" name="gender" class="female" value="female"><br><br>
+                </div>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" id="dob" name="date" min="2007-12-31" max="2016-01-01">
+                <label for="tel">Contact Number:</label>
+                <input type="tel" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx" required>
         </div>
     </section>
 </body>
