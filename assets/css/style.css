@@ -128,8 +128,133 @@ header {
 }
 
 
-.btn-signup:hover {
+.btn-sign-up:hover {
     background-color: black;
     color: white;
     border: #ffffff solid;
+}
+/*Section*/
+
+.methodology {
+    position: relative;
+    background-image: url("/assets/image/meth-background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-color: #f3f2f2;
+    color: black;
+    height: 750px;
+    padding-top: 10px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: -3px;
+}
+
+.methodology h1 {
+    font-size: 33px;
+    padding-bottom: 11px;
+    border-bottom: rgb(252, 2, 2) solid;
+    text-align: center;
+}
+
+.methodology h2 {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.methodology li {
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 60px;
+    margin-right: 150px;
+    transition: font-size 1s;
+}
+
+#methodology-left {
+    float: left;
+}
+
+#left-heading {
+    position: absolute;
+    top: 140px;
+    left: 190px;
+}
+
+#meth-image {
+    position: absolute;
+    left: 38%;
+    top: 0;
+}
+
+#container-image {
+    padding-top: 10px;
+}
+
+#center-meth-img {
+    position: absolute;
+    top: 160px;
+    left: 39%;
+    width: 290px;
+    height: 420px;
+    border-radius: 50px;
+    margin-right: 0;
+}
+
+#methodology-right {
+    float: right;
+}
+
+#right-heading {
+    top: 170px;
+    width: 150px;
+    right: 0;
+    
+}
+
+
+#methodology-left  li::before {
+    content: "✔"; 
+    color: red;
+    margin-right: 10px;
+}
+
+#methodology-right li::before {
+    content: "✔";
+    color: red;
+    margin-right: 10px;
+}
+
+/*button Programs*/
+
+.programs-button {
+    position: absolute;
+    left: 41.5%;
+    bottom: 49px;
+}
+
+.programs-button button {
+    background-color: rgb(252, 5, 5);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.programs-button a {
+    text-decoration: none;
+}
+
+.btn-programs:hover {
+    background-color: white;
+    color: black;
+    border: red solid;
 }
