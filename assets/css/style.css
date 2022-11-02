@@ -384,3 +384,44 @@ header {
     .social-networks p {
         padding-bottom: 20px;
     }
+    /* Programs */
+
+
+#programs {
+    background-color: #f2f2f2;
+}
+
+.programs {
+    position: relative;
+    background-image: url(/assets/image/programs-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;   
+    overflow: hidden;
+    height: 860px;
+}
+
+.programs div {
+    float: left;
+    padding: 30px 0 0 30px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.programs h1 {
+    padding: 20px 0 25px 0;
+    border-bottom: #f3f2f2 solid;
+    margin-bottom: 20px;
+}
+
+.programs h3 {
+    padding-top: 5px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.programs h4 {
+    border: black solid;
+}
