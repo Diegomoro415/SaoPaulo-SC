@@ -803,3 +803,41 @@ header {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
  }
+ /*Morumbi*/
+ .morumbi {
+    margin: 10px;
+    color: #575555;
+    text-align: center;
+    background-image: url(/assets/image/fundo-cinza-claro7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100;
+}
+
+.morumbi img {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border: #fa0101 groove 3px;
+
+}
+
+.morumbi h2 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.morumbi p {
+    font-size: larger;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding: 0 60px 0 60px;
+    text-align: left;
+}
