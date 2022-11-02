@@ -670,3 +670,67 @@ header {
 .greatest td {
     padding: 0 80px 0 0;
 }
+#dream-team {
+    text-align: center;
+    background-image: url(/assets/image/field-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 950px;
+}
+
+#dream-team img {
+    width: 450px;
+    height: 580px;
+    margin-top: 30px;
+}
+
+#dream-team h3 {
+    margin-top: 20px;
+    color: #fafafa;
+    border:rgba(185, 182, 19, 0.473) solid 5px;
+    padding: 10px;
+    margin: 20px 300px 0 300px;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.dream-team{
+    position: relative;
+}
+.dream-team img {
+    width: 280px;
+    height: 350px;
+    margin: 30px 60px 30px 60px;
+}
+
+.dream-team table {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dream-team h3 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin: 30px 280px 0 70px;
+    padding-bottom: 5px;
+    border-bottom: #ff0000 solid 2px;
+}
+
+.dream-team p {
+    margin-left: 70px;    
+}
+
+.dream-team td {
+    width: 100%;
+}
+
+.dream-team h5 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0 5px 20px 50px;
+    padding: 0 20px 0 20px;
+}
