@@ -641,3 +641,32 @@ header {
     text-align: left;
     margin: 10px 99px 10px 99px;
 }
+.greatest {
+    position: relative;
+    padding: 40px 0 20px 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border: #f3f2f2 solid 17px;
+    margin-top: 55px;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.greatest img {
+    margin: 25px 20px 20px 0;
+    width: 600px;
+}
+
+.greatest h3 {
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: #f2f2f2 solid 1px;
+    padding-bottom: 5px;
+}
+
+.greatest td {
+    padding: 0 80px 0 0;
+}
