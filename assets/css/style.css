@@ -613,3 +613,31 @@ header {
     letter-spacing: 1px;
     border: #f2f2f2 solid 1px;
 }
+/* History */
+
+.history-head {
+    text-align: center;
+    font-size: larger;
+    border: #f3f2f2 solid 17px;
+    margin-top: 15px;
+    background-color: #8d8a8a;
+}
+
+.history-head img {
+    margin-top: 20px;
+    width: 70%;
+    height: 180px;
+}
+.history-head h3 {
+    border-bottom: #f2f2f2 solid 1px;
+    margin: 10px 99px 10px 99px;
+    padding-bottom: 5px;
+    
+}
+
+.history-head p {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: left;
+    margin: 10px 99px 10px 99px;
+}
