@@ -841,3 +841,28 @@ header {
     padding: 0 60px 0 60px;
     text-align: left;
 }
+/*Fans*/
+.fans h2 { 
+    font-size: 33px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px 0 20px 0;
+}
+
+.fans p {
+    margin: 0 30px 25px 30px;
+    font-size: larger;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.fans img {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    margin: 10px 0 20px 20px;
+    width: 320px;
+    height: 200px;
+    border: #d3d0d0 solid 3px;
+}
