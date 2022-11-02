@@ -9,3 +9,71 @@ body {
     background-color: rgb(54, ,52, 52);
     font-family: 'lato', sans-serif;
 }
+/*Header*/
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(/assets/image/info_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120px;
+    background-color: #ffffff;
+}
+
+.logo{
+    text-shadow: 5px 10px #e7e5e5;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h2 {
+    color: black;
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    margin-top: 17px;
+}
+
+.logo h3 {
+    color: red;
+    font-family: 'Permanent Marker';
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: -40px;
+    padding-left: 30px;
+}    
+
+.menu {
+    position: absolute;
+    letter-spacing: 1px;
+    right: 120px;
+    top: 80px;
+    
+}    
+
+.menubar{
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.menu li {
+    color: black;
+    border-right: #000000 solid 1px;
+    margin-left: -2px;
+    list-style: none;
+}
+
+.menu a:hover {
+    color: red;
+    font-weight: 600;
+}
