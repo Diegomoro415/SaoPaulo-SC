@@ -334,3 +334,53 @@ header {
     color: black;
     border: red solid;
 }
+    /* Footer */
+
+    footer {
+        height: 140px;
+        text-align: center;
+        border: red solid 4px;
+        background-color: #f3f2f2;
+        color: black;
+    }
+    
+    footer h3 {
+        font-size: 18px;
+        margin: 15px;
+    }
+    
+    footer p {
+        color: #a59f9f;
+    }
+    .social-networks {
+        text-align: center;
+    }
+    
+    .social-networks > li {
+        display: inline;
+        font-size: larger;
+        
+    }
+    .social-networks i {
+        font-size: 190%;
+    }
+    
+    .facebook {
+        color: blue;
+    }
+    
+    .twitter {
+        color: rgb(58, 122, 241);
+    }
+    
+    .youtube {
+        color: #f80202;
+    }
+    
+    .instagram {
+        color: rgb(175, 18, 175);
+    }
+    
+    .social-networks p {
+        padding-bottom: 20px;
+    }
