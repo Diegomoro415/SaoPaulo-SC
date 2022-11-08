@@ -6,34 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sao Paulo Soccer Camp">
     <meta name="keywords" content="sao paulo, soccer camp">
-    <link rel="shortcut icon" href="/assets/image/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="http://media2.saopaulofc.net/img/common/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>São Paulo Soccer Camp</title>
 </head>
-
 <body>
     <header class="header">
         <div class="logo">
-            <a href="index.html"><h2><strong>São Paulo</strong></h2></a>
-            <a href="index.html"><h3>Soccer Camp</h3></a>
+            <a href="index.html"><h1><strong>São Paulo F.C</strong> </h1></a>
+            <a href="index.html"><h2>Soccer Camp</h2></a>
         </div>
         <nav class="menu">
+            <input id="menu__toggle" type="checkbox" hidden/>
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
             <ul class="menubar">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="menu-item" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="programs.html">Programs</a>
+                    <a class="menu-item" href="programs.html">Programs</a>
                 </li>
                 <li>
-                    <a href="history.html">History</a>
+                    <a class="menu-item" href="history.html">History</a>
                 </li>
                 <li>
-                    <a href="sign-up.html">Sign-Up</a>
+                    <a class="menu-item" href="signup.html">Sign Up</a>
                 </li>
             </ul>
-        </nav>
+        </nav>        
     </header>
+
     <main>
         <section id="main">
             <div class="main-text1">
@@ -42,62 +48,66 @@
             <div class="main-text2">
                 <h4>São Paulo licensed soccer camp aim to educate encompassing disciplines that sport requires and contributting to better socialization, also aim to apply a work with methodology that can bring knowledge and develop the learning of the fundamentals of football.</h4>
             </div>
-
             <div class="sign-up-button">
-                <a href="sign-up.html"><button class="btn-sign-up" role="button"><span>Sign-Up</span></button></a>
-            </div>
+            <a class="btn-signup" href="signup.html"><span>Sign-Up >></span></a>
+           </div>
+           <br>
         </section>
 
         <section class="methodology">
-            <h2>Why should you choose training with us?</h2>
-            <h3>Methodology</h3>
             
+            <h2>Why you should choose training us?</h2>
+            
+            
+            <h3>Methodology</h3>
+
             <div id="methodology-graph">
                 <div id="methodology-left">
                     <ul id="left-heading">
-                        <li>Kids within 06 to 15</li>
+                        <li>Athletes within 6 to 15</li>
                         <li>Boys and Girls</li>
-                        <li>From Beginners to Advanced</li>
-                        <li>Focused On The Game</li>
+                        <li>From beginners to advanced</li>
+                        <li>Focused on the game</li>
                     </ul>
                 </div>
-                <div id="methodology-img">
-                    <figure id="container-image">
-                        <img src="/assets/image/meth-image.jpg" id="center-meth-img" alt="Sao Paulo Team">
+                <div id="meth-image">
+                    <figure id="meth-container-img">
+                    <img src="/assets/image/meth-image.jpg" id="center-meth-img" alt="Sao Paulo team" >
                     </figure>
                 </div>
                 <div id="methodology-right">
-                    <ul id="right-heading">
-                        <li>São Paulo F.C Methodology</li>
-                        <li>Technical And Tactical Development</li>
-                        <li>Personalized Follow-Up</li>
-                        <li>Teaching The Values Of São Paulo F.C</li>
+                    <ul id="righ-heading">
+                        <li>São Paulo FC methodology</li>
+                        <li>Technical and tactical development</li>
+                        <li>Personalized athlete's follow-up</li>
+                        <li>Teaching the values of Sao Paulo FC</li>
                     </ul>
                 </div>
-                <div class="programs-button">
-                    <a href="programs.html"><button class="btn-programs" role="button"><span>Programs >></span></button></a>
-                </div>
+            </div>
+
+            <div class="programs-button">
+                <a href="programs.html" class="btn-programs"><span>Programs >></span></a>
             </div>
         </section>
+
     </main>
+    
     <section id="history-briefing">
         <h2>"...Among the greatest you are the first..."</h2>
         <div class="hb-container">
-            <div class="hb-img1">
-                <img src="/assets/image/151207132611-rogerio-ceni-club-world-cup.jpg" alt="Rogerio Ceni 2005 Club-World-Cup">
+            <div class="b-img1">
+                <img src="assets/image/151207132611-rogerio-ceni-club-world-cup.jpg" alt="Rogerio 2005-club-world-cup">
             </div>
             <div class="b-text">
-                <p>São Paulo Futebol Clube, Brazilian professional football (soccer) club based in Sa&#771;o Paulo. The youngest club among the greats of Brazilian football. Dearest Tricolor is the only Brazilianclub to have conquered America and World for 3 times. This club is also the only consecutive three-time champion of the Brazilian league and the first to win six times.</p>
+                <p>São Paulo Futebol Clube, Brazilian professional football (soccer) club based in São Paulo. The youngest club among the greats of Brazilian football. Dearest Tricolor is the only Brazilian club to have conquered America and World for 3 times. This club is also the only consecutive three-time champion of the Brazilian league and the first to win six times.</p>
             </div>
-            <div class="hb-img2">
-                <img src="/assets/image/rogerio-escudo.jfif" alt="Rogerio on his Farewell">
-            </div>
-            <div class="history-button">
-                <a href="history.html"><button class="btn-history" role="button"><span>History >></span></button></a>
-            </div>
+        </div> 
+    
+        <div class="history-button">
+            <a href="history.html" class="btn-history"><span>History >></span></a>
         </div>
     </section>
-    <footer>
+    <footer >
         <h3>Follow us:</h3>
         <ul class="social-networks">
             <li>
@@ -105,7 +115,7 @@
                 aria-label="Visit our Facebook page (opens in a new tab)" ><i class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" class="twitter" target="_blank" rel="noopener" arial-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://twitter.com" class="twitter" target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
                 <a href="https://youtube.com" class="youtube" target="_blank" rel="noopener" aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
@@ -115,9 +125,11 @@
             </li>
         </ul>
 
-        <p>Copyright © Sao Paulo Soccer Camp 2022</p>
+        <p>Copyright © São Paulo Soccer Camp 2022</p>
+    
     </footer>
+
     <!--Font Awesome Script-->
-    <script src="https://kit.fontawesome.com/8592869157.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8592869157.js" crossorigin="anonymous"></script>      
 </body>
 </html>
