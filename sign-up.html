@@ -6,40 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sao Paulo Soccer Camp">
     <meta name="keywords" content="sao paulo, soccer camp">
-    <link rel="shortcut icon" href="/assets/image/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="http://media2.saopaulofc.net/img/common/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>São Paulo Soccer Camp</title>
 </head>
-
 <body>
     <header class="header">
         <div class="logo">
-            <a href="index.html"><h2><strong>São Paulo</strong></h2></a>
-            <a href="index.html"><h3>Soccer Camp</h3></a>
+            <a href="index.html"><h1><strong>São Paulo F.C</strong> </h1></a>
+            <a href="index.html"><h2>Soccer Camp</h2></a>
         </div>
         <nav class="menu">
+            <input id="menu__toggle" type="checkbox" hidden />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
             <ul class="menubar">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="menu-item" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="programs.html">Programs</a>
+                    <a class="menu-item" href="programs.html">Programs</a>
                 </li>
                 <li>
-                    <a href="history.html">History</a>
+                    <a class="menu-item" href="history.html">History</a>
                 </li>
                 <li>
-                    <a href="sign-up.html">Sign-Up</a>
+                    <a class="menu-item" href="signup.html">Sign Up</a>
                 </li>
             </ul>
-        </nav>
+        </nav>        
     </header>
-    <section id="form-sign-up">
+    <section id="form-signup">
         <div class="head-form">
-            <h1>Be part of our team</h1>
+            <h2>Be part of our team</h2>
         </div>
         <div id="formid">
-            <h3>Fill your personal details</h3>
+            <h3>Fill your pensonal details</h3>
             <form action="/assets/action_page.php" method="post" class="form1" name="Fill our form" target="_top" rel="noopener">
                 <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="fname" placeholder="Enter First Name" autofocus required>
@@ -51,10 +56,10 @@
                 <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your e-mail" required><br>
                 <br>
                 <div class="gender">Gender:
-                    <label for="male" id="male">Male:</label>
-                    <input type="radio" name="gender" class="male" value="male">
-                    <label for="female" id="female">Female:</label>
-                    <input type="radio" name="gender" class="female" value="female"><br><br>
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" id="female" value="female"><br><br>
                 </div>
                 <label for="dob">Date Of Birth:</label>
                 <input type="date" id="dob" name="date" min="2007-12-31" max="2016-01-01">
@@ -63,7 +68,7 @@
                 <label for="address">Address:</label>
                 <input type="text" name="address" id="address" placeholder="Your Address" required>
                 <label for="zip">Postal Code:</label>
-                <input type="type" id="zip" onkeypress="return event.charCode >=01 && event.charCode <= 99;" name="zip" id="zip" size="5" placeholder="00000">
+                <input type="text" pattern="[0-9]+" id="zip" onkeypress="return event.charCode >=01 && event.charCode <= 99;" name="zip"  size="5" placeholder="00000">
                 <label for="country">Nationality:</label>
                 <select name="country" id="country">
                     <option value="">---Select---</option>
@@ -302,26 +307,25 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-                <br>
                 <div class="program">
                     <label for="program">Select Program:</label>
                     <select name="program" id="program" required>
-                    <option value="">---Select---</option>
-                    <option value="academy">Academy</option>
-                    <option value="students">Students</option>
-                    <option value="competition">Competiton</option>
+                        <option value="">---Select---</option>
+                        <option value="academy">Academy</option>
+                        <option value="students">Students</option>
+                        <option value="competition">Competiton</option>
+                    </select>
                 </div>
-                <br>
-                <div class="button-form">
-                    <input class="submit" type="submit" Value="Submit">
-                    <input class="reset" type="reset" value="Reset">
-                </div>
+                    <div class="button-form">
+                        <input class="submit" type="submit" Value="Submit">
+                        <input class="reset" type="reset" value="Reset">
+                    </div>
             </form>
         </div>
-    </section>
-    <section id="map">
-        <iframe width="100%" height="300" src="https://maps.google.com/maps?q=Av.%20Dr.%20Odair%20Pacheco%20Pedroso,%201700%20-%20Vila%20Monte%20Serrat,%20Cotia%20-%20SP,%2006717-200,%20Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
-    </section>
+    </section>  
+    <div id="map">
+        <iframe src="https://maps.google.com/maps?q=Av.%20Dr.%20Odair%20Pacheco%20Pedroso,%201700%20-%20Vila%20Monte%20Serrat,%20Cotia%20-%20SP,%2006717-200,%20Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe><br>
+    </div>  
     <footer>
         <h3>Follow us:</h3>
         <ul class="social-networks">
@@ -330,7 +334,7 @@
                 aria-label="Visit our Facebook page (opens in a new tab)" ><i class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" class="twitter" target="_blank" rel="noopener" arial-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://twitter.com" class="twitter" target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
                 <a href="https://youtube.com" class="youtube" target="_blank" rel="noopener" aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
@@ -340,11 +344,12 @@
             </li>
         </ul>
 
-        <p>Copyright © Sao Paulo Soccer Camp 2022</p>
+        <p>Copyright © São Paulo Soccer Camp 2022</p>
     
     </footer>
 
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/8592869157.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
