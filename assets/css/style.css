@@ -20,7 +20,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(/assets/image/info_banner.png);
+    background-image: url(/assets/image/logo_banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 120px;
@@ -142,7 +142,7 @@ header {
 /*Section*/
 
 .methodology {
-    background-image: url("/assets/image/meth-background-image.jpg");
+    background-image: url("/assets/image/meth_background_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -374,9 +374,10 @@ footer p {
 }
 
 .programs {
-    background-image: url(/assets/image/programs-background.jpg);
+    background-image: url(/assets/image/black_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     text-align: center;   
     height: auto;
 }
@@ -415,7 +416,7 @@ footer p {
 }
 
 .academy h3 {
-    background-image: url(/assets/image/academy-image.jpg);
+    background-image: url(/assets/image/academy_image.jpg);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -442,7 +443,7 @@ footer p {
 }
 
 .students h3 {
-    background-image: url(/assets/image/student-image.jfif);
+    background-image: url(/assets/image/student_image.jfif);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -467,7 +468,7 @@ footer p {
 }
 
 .competition h3 {
-    background-image: url(/assets/image/competiton-image.jpg);
+    background-image: url(/assets/image/competiton_image.jpg);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -670,7 +671,7 @@ footer p {
 
 #dream-team {
     text-align: center;
-    background-image: url(/assets/image/field-background.jpg);
+    background-image: url(/assets/image/field_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px 950px;
@@ -811,7 +812,7 @@ footer p {
     margin: 10px;
     color: #575555;
     text-align: center;
-    background-image: url(/assets/image/fundo-cinza-claro7.png);
+    background-image: url(/assets/image/grey_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -1181,7 +1182,7 @@ input[type=reset] {
  
 @media screen and (min-width: 607px) and (max-width: 875px)  {
     .header {
-        background-image: url(/assets/image/info-banner-mobile.png);
+        background-image: url(/assets/image/logo_banner_mobile.png);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -1425,7 +1426,7 @@ input[type=reset] {
 @media screen and (min-width: 319px) and (max-width: 606px) {
     * {margin: 2px;}
     .header {
-        background-image: url(/assets/image/info-banner-mobile.png);
+        background-image: url(/assets/image/logo_banner_mobile.png);
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
