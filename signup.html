@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sao Paulo Soccer Camp">
     <meta name="keywords" content="sao paulo, soccer camp">
+    <!--link icon image-->
     <link rel="shortcut icon" href="/assets/image/favicon.ico">
-
+    <!--link to style css-->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!--Title page-->
     <title>São Paulo Soccer Camp</title>
 </head>
 <body>
+    <!--header-->
     <header class="header">
+        <!--div logo-->
         <div class="logo">
             <a href="index.html"><h1><strong>São Paulo F.C</strong> </h1></a>
             <a href="index.html"><h2>Soccer Camp</h2></a>
         </div>
+        <!--nav menu-->
         <nav class="menu">
             <input id="menu__toggle" type="checkbox" hidden />
             <label class="menu__btn" for="menu__toggle">
@@ -39,32 +43,40 @@
             </ul>
         </nav>        
     </header>
+    <!--Sign Up Section-->
     <section id="form-signup">
         <div class="head-form">
             <h2>Be part of our team</h2>
         </div>
+        <!--Sign Up Form-->
         <div id="formid">
             <h3>Fill your pensonal details</h3>
             <form action="/assets/action_page.php" method="post" class="form1" name="Fill our form" target="_top" rel="noopener">
+                <!--Name-->
                 <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="fname" placeholder="Enter First Name" autofocus required>
                 <label for="lname">Last Name:</label>
                 <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                <!--E-mail-->
                 <label for="email">E-Mail:</label>
                 <input type="email" id="email" name="email" placeholder="Enter E-Mail" required>
                 <label for="confirm-email">Confirm E-Mail</label>
                 <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your e-mail" required><br>
                 <br>
+                <!--Gender-->
                 <div class="gender">Gender:
                     <label for="male">Male:</label>
                     <input type="radio" name="gender" id="male" value="male">
                     <label for="female">Female:</label>
                     <input type="radio" name="gender" id="female" value="female"><br><br>
                 </div>
+                <!--Date of Birth-->
                 <label for="dob">Date Of Birth:</label>
                 <input type="date" id="dob" name="date" min="2007-12-31" max="2016-01-01">
+                <!--Contact Number-->
                 <label for="tel">Contact Number:</label>
                 <input type="tel" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx" required>
+                <!--Address-->
                 <label for="address">Address:</label>
                 <input type="text" name="address" id="address" placeholder="Your Address" required>
                 <label for="zip">Postal Code:</label>
@@ -307,6 +319,7 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
+                <!--Select Programs-->
                 <div class="program">
                     <label for="program">Select Program:</label>
                     <select name="program" id="program" required>
@@ -316,6 +329,7 @@
                         <option value="competition">Competiton</option>
                     </select>
                 </div>
+                <!--Button Submit Reset-->
                     <div class="button-form">
                         <input class="submit" type="submit" Value="Submit">
                         <input class="reset" type="reset" value="Reset">
@@ -323,9 +337,11 @@
             </form>
         </div>
     </section>  
+    <!--Map-->
     <div id="map">
         <iframe src="https://maps.google.com/maps?q=Av.%20Dr.%20Odair%20Pacheco%20Pedroso,%201700%20-%20Vila%20Monte%20Serrat,%20Cotia%20-%20SP,%2006717-200,%20Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe><br>
-    </div>  
+    </div> 
+    <!--Footer links to social midias--> 
     <footer>
         <h3>Follow us:</h3>
         <ul class="social-networks">
@@ -343,13 +359,9 @@
                 <a href="https://instagram.com" class="instagram" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-
         <p>Copyright © São Paulo Soccer Camp 2022</p>
-    
     </footer>
-
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/8592869157.js" crossorigin="anonymous"></script>
-
 </body>
 </html>

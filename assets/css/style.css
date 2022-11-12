@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&family=Permanent+Marker&display=swap');
-
+/*Initial style*/
 * {
     margin: 8px 10px 8px 8px;
     padding: 0;
@@ -12,9 +12,7 @@ body {
     color: #ffffff;
     font-family: 'lato', sans-serif;
 }
-
 /*Header*/
-
 header {
     display: flex;
     flex-direction: row;
@@ -26,17 +24,15 @@ header {
     background-size: 100% 120px;
     background-color: #ffffff;
 }
-
+/*Logo*/
 .logo{
     text-shadow: 5px 10px #e7e5e5;
     margin-left: -30%;
     text-transform: uppercase;
 }
-
 .logo a {
     text-decoration: none;
 }
-
 .logo h1 {
     color: black;
     font-family: 'Orbitron', 'sans-serif';
@@ -44,7 +40,6 @@ header {
     font-weight: 800;
     margin-top: 17px;
 }
-
 .logo h2 {
     color: red;
     font-family: 'Orbitron', 'sans-serif';
@@ -52,37 +47,31 @@ header {
     font-size: 30px;
     margin-top: -30px;
     padding-left: 30px;
-}    
-
+}
+/*Menu*/    
 .menu {
     letter-spacing: 1px;
     margin-right: -30%;
 }    
-
 .menubar{
     display: flex;
-
 }
-
 .menu a {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
 }
-
 .menu li {
     color: black;
     border-right: #000000 solid 1px;
     margin-left: -2px;
     list-style: none;
 }
-
 .menu a:hover {
     color: red;
     font-weight: 600;
 }
-/*Main*/
-
+/*Main Text*/
 #main {
     width: 100%;
     height: auto;
@@ -98,13 +87,11 @@ header {
     border: black solid 3px;
     margin-left: -3px;
 }
-
 .main-text1 {
     font-size: 28px;
     font-weight: 400;
     text-transform: uppercase;
 }
-
 .main-text2 {
     padding-top: 18px; 
     font-size: 23px;
@@ -114,9 +101,7 @@ header {
     letter-spacing: 1px;
     margin: 0 120px 50px 120px;
 }
-
 /*Button sign-up*/
-
 .btn-signup {
     position: sticky;
     background-color: rgb(253, 252, 252);
@@ -131,16 +116,12 @@ header {
     cursor: pointer;
     border-radius: 7px;
 }
-
-
 .btn-signup:hover {
     background-color: black;
     color: white;
     border: #ffffff solid;
 }
-
-/*Section*/
-
+/*Section Methodology*/
 .methodology {
     background-image: url("/assets/image/meth_background_image.jpg");
     background-repeat: no-repeat;
@@ -149,81 +130,71 @@ header {
     width: 100%;
     background-color: #f3f2f2;
     color: black;
-    height: auto;
+    height: min-content;
     padding-top: 10px;
     text-align: center;
     list-style-type: none;
-    margin-left: -3px;
+    margin: 30px 0 0 -2px;
 }
-
+/*Methodology Heading*/
 .methodology h2 {
     font-size: 33px;
     padding-bottom: 11px;
     border-bottom: rgb(252, 2, 2) solid;
     text-align: center;
 }
-
 .methodology h3 {
     font-size: 30px;
     padding-top: 5px;
 }
-
-#methodology-left {
-    margin: 0px -190px 0 11%;
-    margin-top: -40px;
-}
-
+/*Methodology list*/
 #methodology-graph {
     display: flex;
     flex-direction: row;
     margin-left: 7%;
+    margin-bottom: 50px;
     align-items: center;
 }
-
+/*Methodology left text*/
+#methodology-left {
+    margin: 0px 0 0 8%;
+    margin-top: -40px;
+}
 .methodology li {
     list-style-type: none;
     font-size: 21px;
     font-weight: 500;
-    padding-top: 60px;
+    padding-top: 30px;
 }
-
-#meth-container-img {
-    padding-top: 10px;
-}
-
+/*Methodology center image*/
 #center-meth-img {
-    width: 40%;
+    width: 80%;
     height: auto;
     margin-top: 30px;
     border-radius: 50px;
-    
 }
-
+/*methodology right text*/
 #methodology-right {
-    margin: 0 11% 0 -190px;
+    margin: 0 11% 0 0;
 }
-
 #methodology-left  li::before {
     content: "✔"; 
     color: red;
     margin-right: 10px;
 }
-
 #methodology-right li::before {
     content: "✔";
     color: red;
     margin-right: 10px;
 }
-
-/*button Programs*/
+/*Button Programs*/
 .btn-programs {
     padding: 12px 28px;
-    margin: 4px 2px 20px 0;    
+    margin: 0 20px 0 0px;    
     font-size: 22px;
     text-align: center;
     text-decoration: none;
 }
-
 .programs-button a {
     text-decoration: none;
     background-color: rgb(252, 5, 5);
@@ -233,15 +204,20 @@ header {
     cursor: pointer;
     border-radius: 7px;
 }
-
 .btn-programs:hover {
     background-color: white;
     color: black;
     border: red solid;
 }
-
 /*History Briefing*/
-
+#history-briefing {
+    letter-spacing: 3px;
+    font-weight: 600;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+}
+/*History Briefing Heading*/
 #history-briefing h2 {
     text-align: center;
     font-size: 23px;
@@ -249,50 +225,36 @@ header {
     padding: 30px 0 30px 0;
     border-bottom: #f80202 solid 2px;
 }
-
 .hb-container {
     display: flex;
     flex-direction: row;
     margin-left: 7%;
 }
-
 .hb-container p {
     margin-top: 20px;
 }
-
+/*History Brifing Image*/
 #history-briefing img {
     height: 17em;
     padding: 20px 30px 15px 30px;
 }
-
 .hb-container img {
     width: 120%;
     height: auto;
     margin-left: 9%;
 }
-
+/*history briefin paragraph*/
 .b-text {
     width: 40%;
     margin-top: 3%;
     margin-left: 18%;    
 }
-
-#history-briefing {
-    letter-spacing: 3px;
-    font-weight: 600;
-    height: auto;
-    font-size: 18px;
-    text-align: center;
-    }
-
 #history-briefing p {
     border:  5px #f2f2f2 solid; 
     padding: 16px;
     color: #f2f2f2;
 }
-
 /* button history-briefing */
-
 .history-button a {
     background-color: rgb(252, 5, 5);
     color: rgb(255, 255, 255);
@@ -307,15 +269,12 @@ header {
     border-radius: 7px;
     bottom: 5px;
 }
-
 .btn-history:hover {
     background-color: white;
     color: black;
     border: red solid;
 }
-
-    /* Footer */
-
+/* Footer */
 footer {
     margin-top: 40px;
     height: 10em;
@@ -324,55 +283,42 @@ footer {
     background-color: #f3f2f2;
     color: black;
 }
-
 footer h3 {
     font-size: 18px;
     margin: 15px;
 }
-
 footer p {
     color: #a59f9f;
 }
 .social-networks {
     text-align: center;
 }
-
 .social-networks > li {
     display: inline;
     font-size: larger;
-    
 }
 .social-networks i {
     font-size: 190%;
 }
-
 .facebook {
     color: blue;
 }
-
 .twitter {
     color: rgb(58, 122, 241);
 }
-
 .youtube {
     color: #f80202;
 }
-
 .instagram {
     color: rgb(175, 18, 175);
 }
-
 .social-networks p {
     padding-bottom: 20px;
 }    
-
 /* Programs */
-
-
 #programs {
     background-color: #f2f2f2;
 }
-
 .programs {
     background-image: url(/assets/image/black_background.jpg);
     background-repeat: no-repeat;
@@ -381,40 +327,36 @@ footer p {
     text-align: center;   
     height: auto;
 }
-
 .programs-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .programs div {
     padding: 30px 0 0 30px;
     text-align: center;
 }
-
+/*Programs Heading*/
 .programs h2 {
     padding: 20px 0 25px 0;
     border-bottom: #f3f2f2 solid;
     margin-bottom: 20px;
 }
-
 .programs h5 {
     padding-top: 5px;
     font-size: large;
     letter-spacing: 1px;
     font-weight: 400;
 }
-
+/*programs */
 .programs h4 {
     border: black solid;
 }
-
+/*Academy*/
 .academy {
     width: 29%;
 }
-
 .academy h3 {
     background-image: url(/assets/image/academy_image.jpg);
     background-position: center;
@@ -426,22 +368,18 @@ footer p {
     letter-spacing: 1px;
     font-family: 'Orbitron', sans-serif;
     border: #f2f2f2 solid 2px;
-    
 }
-
 .academy h4 {
     background-color: #f2f2f2;
     color: black;
     font-size: 18px;
     padding: 15px 0 15px 0;
     text-transform: capitalize;
-    
 }
-
+/*Students*/
 .students {
     width: 29%;
 }
-
 .students h3 {
     background-image: url(/assets/image/student_image.jfif);
     background-position: center;
@@ -454,7 +392,6 @@ footer p {
     letter-spacing: 1px;
     border: #f2f2f2 solid 2px;
 }
-
 .students h4 {
     background-color: #f3f2f2;
     color: black;
@@ -462,11 +399,10 @@ footer p {
     padding: 15px 0 15px 0;
     text-transform: capitalize;
 }
-
+/*Competition*/
 .competition {
     width: 29%;
 }
-
 .competition h3 {
     background-image: url(/assets/image/competiton_image.jpg);
     background-position: center;
@@ -479,7 +415,6 @@ footer p {
     letter-spacing: 1px;
     border: #f2f2f2 solid 2px;
 }
-
 .competition h4 {
     background-color: #f3f2f2;
     color: black;
@@ -487,10 +422,7 @@ footer p {
     padding: 15px 0 15px 0;
     text-transform: capitalize;
 }
-
 /* programs button */
-
-
 .programs-sign-up .btn-signup-programs {
     background-color: rgb(253, 252, 252);
     color: rgb(175, 3, 3);
@@ -503,21 +435,18 @@ footer p {
     cursor: pointer;
     border-radius: 7px;
 }
-
 .btn-signup-programs:hover {
     background-color: rgb(248, 7, 7);
     color: white;
     border: #ffffff solid;
 }
-
 /* Facilities */
-
 .facilities {
     color: black;
     padding: 20px 35px 20px 35px;
     height: auto;
 }
-
+/*Facilities Heading*/
 .facilities h2 {
     font-size: 30px;
     font-weight: 700;
@@ -526,63 +455,42 @@ footer p {
     text-transform: uppercase;
     text-align: center;
 }
-
 .facilities p {
     padding: 20px 0 30px 0;
     font-size: large;
     font-weight: 400;
     letter-spacing: 1px;
 }
-
+/*facilities images*/
 .facilities img {
     width: 23%;
     height: 16em;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    
 }
-
 /* Made to Shine */
-
 .made-to-shine {
     background-color: rgba(0, 0, 0, 0.815);
     color: #f3f2f2;
     padding: 20px 35px 20px 35px;
 }
-
+/*made to shine link to wikipedia*/
 .made-to-shine-container a {
     margin-left: 40%;
 }
-
 .made-to-shine a {
     font-size: 18px;
     color: orange;
     margin-top: -50px;
 }
-
+/*made to shine Images*/
 .made-to-shine img {
     width: 28%;
     height: 20em;
     padding: 25px 20px 25px 15px;
     border-radius: 50px;
 }
-
-.made-to-shine-container div {
-    padding: 25px 0 0 25px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    border-top: #f80202 solid 2px;
-}
-
-.made-to-shine h4 {
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-
+/*made to shine heading*/
 .made-to-shine h2 {
     font-size: 33px;
     font-weight: 700;
@@ -591,24 +499,32 @@ footer p {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
 }
-
+.made-to-shine h4 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
 .made-to-shine p {
     padding: 10px 0 10px 0px;
     margin-top: 50px;
     font-size: 18px;
 }
-
+/*Made to shine divs*/
+.made-to-shine-container div {
+    padding: 25px 0 0 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border-top: #f80202 solid 2px;
+}
 .made-to-shine div>h6 {
     font-size: 18px;
     font-weight: 400;
     margin-top: 50px;
     padding: 20px 20px 30px 20px;
     letter-spacing: 1px;
-    
 }
-
-/* History */
-
+/*History*/
 .history-head {
     height: auto;
     text-align: center;
@@ -617,26 +533,25 @@ footer p {
     margin-top: 15px;
     background-color: #8d8a8a;
 }
-
+/*History Image*/
 .history-head img {
     margin-top: 20px;
     width: 70%;
     height: 10em;
 }
+/*History text*/
 .history-head h3 {
     border-bottom: #f2f2f2 solid 1px;
     margin: 10px 99px 10px 99px;
     padding-bottom: 5px;
-    
 }
-
 .history-head p {
     padding-top: 45px;
     padding-bottom: 45px;
     text-align: left;
     margin: 10px 99px 10px 99px;
 }
-
+/*Greatest*/
 .greatest {
     width: 98.5%;
     height: auto;
@@ -649,17 +564,16 @@ footer p {
     letter-spacing: 2px;
     font-weight: 600;
 }
-
 .greatest table {
     display: flex;
     flex-wrap: wrap;
 }
-
+/*Greatest Image*/
 .greatest img {
     margin: 25px 20px 20px 0;
     width: 27rem;
 }
-
+/*Greatest Text*/
 .greatest h3 {
     text-align: center;
     font-size: xx-large;
@@ -668,7 +582,7 @@ footer p {
     border-bottom: #f2f2f2 solid 1px;
     padding-bottom: 5px;
 }
-
+/*Dream Team*/
 #dream-team {
     text-align: center;
     background-image: url(/assets/image/field_background.jpg);
@@ -676,13 +590,13 @@ footer p {
     background-position: center;
     background-size: 1500px 950px;
 }
-
+/*Dream Team Image*/
 #dream-team img {
     width: 39%;
     height: 58%;
     margin-top: 30px;
 }
-
+/*Dream Team text*/
 #dream-team h3 {
     align-items: center;
     text-align: center;
@@ -696,23 +610,20 @@ footer p {
     font-style: italic;
     text-transform: uppercase;
 }
-
+/*Dream Team Tables*/
 .dream-team {
     display: flex;
     flex-direction: column;
-    
+}
+.dream-team table {
+    background-color: #ffffff;
+    color: #000000;
 }
 .dream-team img {
     width: 20rem;
     height: 23rem;
     margin: 30px;
 }
-
-.dream-team table {
-    background-color: #ffffff;
-    color: #000000;
-}
-
 .dream-team h3 {
     width: 22em;
     font-size: 28px;
@@ -721,16 +632,13 @@ footer p {
     padding-bottom: 5px;
     border-bottom: #ff0000 solid 2px;
 }
-
 .dream-team p {
     margin-left: 15px;
     width: 22em;    
 }
-
 .dream-team td {
     width: 100%;
 }
-
 .dream-team h5 {
     font-size: 18px;
     font-weight: 200;
@@ -738,76 +646,73 @@ footer p {
     margin: 0 0 20px 0;
     padding: 0 20px 0 20px;
 }
-
+/*Rogerio Ceni*/
 .rc {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
 .rc h3 {
     margin-top: 15px;
 }
-
 .rc img {
     width: 70%;
 }
-
+/*Cafu*/
 .cafu {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Dario Pereyra*/
 .dario {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Lugano*/
 .lugano {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Leonardo*/
 .leonardo {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Mineiro*/
 .mineiro {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Pedro-Rocha*/
 .pedro-rocha {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Muller*/
 .muller {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;;
 }
-
+/*Leonidas da Silva*/
 .leonidas {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
-       
 }
-
+/*Careca*/
 .careca {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Rai*/
 .rai {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-
+/*Tele Santana*/
  .tele {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
  }
-
+/*Morumbi*/
 .morumbi {
     margin: 10px;
     color: #575555;
@@ -817,7 +722,6 @@ footer p {
     background-position: center;
     background-size: 100%;
 }
-
 .morumbi img {
     display: inline-block;
     width: 300px;
@@ -826,7 +730,6 @@ footer p {
     border: #fa0101 groove 3px;
 
 }
-
 .morumbi h2 {
     padding-top: 30px;
     margin-bottom: 20px;
@@ -836,7 +739,6 @@ footer p {
     letter-spacing: 3px;
     font-weight: 800;
 }
-
 .morumbi p {
     font-size: larger;
     font-weight: 200;
@@ -845,7 +747,7 @@ footer p {
     padding: 0 60px 0 60px;
     text-align: left;
 }
-
+/*Fans*/
 .fans h2 { 
     font-size: 33px;
     font-family: 'Orbitron', sans-serif;
@@ -853,14 +755,12 @@ footer p {
     text-align: center;
     margin: 35px 0 20px 0;
 }
-
 .fans p {
     margin: 0 30px 25px 30px;
     font-size: larger;
     font-weight: 200;
     letter-spacing: 1px;
 }
-
 .fans img {
     display: inline-block;
     left: 5%;
@@ -869,9 +769,7 @@ footer p {
     height: 200px;
     border: #d3d0d0 solid 3px;
 }
-
 /* Sign-Up page */
-
 #form-signup {
     background-image: url(/assets/image/background1.png);
     background-repeat: no-repeat;
@@ -879,7 +777,7 @@ footer p {
     background-size: 100% 100%;
     height: 1300px;
 }
-
+/*Sign Up heading*/
 .head-form {
     padding-top: 30px;
     font-size: 28px;
@@ -887,7 +785,6 @@ footer p {
     text-transform: uppercase;
     font-family: 'Orbitron', sans-serif;
 }
-
 #formid h3 {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -896,7 +793,7 @@ footer p {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
+/*Sign Up Form*/
 .form1 {
     border-radius: 5px;
     background-color: #f2f2f2be;
@@ -908,13 +805,11 @@ footer p {
     box-shadow: 5px 10px 18px #888888;
     
 }
-
 .form1 label {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
 }
-
 .form1 input[type=text], select {
     width: 100%;
     padding: 8px 18px;
@@ -925,8 +820,6 @@ footer p {
     box-sizing: border-box;
     font-size: 16px;
 }
-
-
 .form1 input[type=email], select {
     width: 100%;
     padding: 8px 18px;
@@ -937,11 +830,9 @@ footer p {
     box-sizing: border-box;
     font-size: 16px;
 }
-
 .form1 input[type=radio], select {
     margin-right: 30px;
 }
-
 .gender {
     font-size: 18px;
     font-weight: 600;
@@ -953,11 +844,9 @@ footer p {
     font-size: 18px;
     font-weight: 400;
 }
-
 #female {
     margin-left: -10px;
 }
-
 .zip[type=type], select {
     width: 100%;
     padding: 8px 18px;
@@ -969,7 +858,6 @@ footer p {
     font-size: 16px;
     text-transform: lowercase;
 }
-
 .form1 input[type=date], select {
     width: 100%;
     padding: 8px 18px;
@@ -981,7 +869,6 @@ footer p {
     font-size: 16px;
     text-transform: uppercase;
 }
-
 .form1 input[type=tel], select {
     width: 100%;
     padding: 08px 18px;
@@ -992,7 +879,6 @@ footer p {
     box-sizing: border-box;
     font-size: 16px;
 }
-
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
@@ -1004,15 +890,12 @@ input[type=submit] {
     cursor: pointer;
     font-size: large;
 }
-  
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 #program, #country{
     text-transform: capitalize;
 }
-
 input[type=reset] {
     margin-left: 41%;
     font-size: 16px;
@@ -1020,6 +903,7 @@ input[type=reset] {
     cursor: pointer;
     background-color: #f2f2f234;    
 }
+/*Map*/
 #map {
     background-color: #f2f2f2;
 }
@@ -1028,108 +912,106 @@ input[type=reset] {
     width: 100%;
     height: 300px;
 }
-
 /* Media Querries*/
 
-/* burger menu */
 @media screen and (max-width:1000px) {
+    /* burger menu */
     #menu__toggle {
-    opacity: 0;
+        opacity: 0;
     }
     #menu__toggle:checked + .menu__btn > span {
-    transform: rotate(45deg);
+        transform: rotate(45deg);
     }
     #menu__toggle:checked + .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0deg);
+        top: 0;
+        transform: rotate(0deg);
     }
     #menu__toggle:checked + .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
+        top: 0;
+        transform: rotate(90deg);
     }
     #menu__toggle:checked ~ .menubar {
-    right: 0 !important;
+        right: 0 !important;
     }
     .menu__btn {
-    position: fixed;
-    top: 90px;
-    right: 110px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
+        position: fixed;
+        top: 90px;
+        right: 110px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
     }
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    background-color: #616161;
-    transition-duration: .25s;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #616161;
+        transition-duration: .25s;
     }
     .menu__btn > span::before {
-    content: '';
-    top: -8px;
+        content: '';
+        top: -8px;
     }
     .menu__btn > span::after {
-    content: '';
-    top: 8px;
+        content: '';
+        top: 8px;
     }
     .menubar {
-    display: block;
-    position: fixed;
-    border: none;
-    top: 0;
-    right: -100%;
-    width: 30%;
-    height: 50%;
-    margin-top: 40px;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #f2f2f2;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-    transition-duration: .25s;
+        display: block;
+        position: fixed;
+        border: none;
+        top: 0;
+        right: -100%;
+        width: 30%;
+        height: 50%;
+        margin-top: 40px;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #f2f2f2;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
     }
     .menu-item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-family: 'lato', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    transition-duration: .25s;
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
     }
     .menu-item:hover {
-    background-color: #CFD8DC;
+        background-color: #CFD8DC;
     }
     /* Methodology */
     #methodology-graph {
-    display: flex;
-    flex-direction: column;        
-    align-items: center;    
+        display: flex;
+        flex-direction: column;        
+        align-items: center;    
     }
     #methodology-left {
-    margin-left: -30%;
+        margin-left: -30%;
     }
-    #methodology-right {
-    margin-right: -15%;
-    padding-bottom: 30px;
+        #methodology-right {
+        margin-right: -15%;
+        padding-bottom: 30px;
     }
-    
     /* History-Briefing */
     .hb-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .b-img2 {
         margin-right: 25%;
     }
     .dream-team table{
-        border: none;
+         border: none;
     }
     .greatest h3 {
         font-size: 18px;
@@ -1142,6 +1024,7 @@ input[type=reset] {
         width: 100%;
         margin-left: -5%;
     }
+    /*Dream team*/
     .dream-team td{
         display: flex;
         flex-direction: column;
@@ -1164,14 +1047,11 @@ input[type=reset] {
     .facilities img {
         width: 45%;
     }
-
     /* Our Support */
     .fans img {
         width: 45%;
     }
-
     /* Form */
-
     .form1 {
         width: 70%;
         align-content: center;
@@ -1179,8 +1059,8 @@ input[type=reset] {
         height: auto;
     }    
 }
- 
 @media screen and (min-width: 607px) and (max-width: 875px)  {
+    /*Header*/
     .header {
         background-image: url(/assets/image/logo_banner_mobile.png);
         background-position: center;
@@ -1196,6 +1076,7 @@ input[type=reset] {
         margin-left: 11%;
         width: max-content;
     }
+    /*Main text*/
     #main h2 {
         font-size: 24px;
     }
@@ -1210,6 +1091,7 @@ input[type=reset] {
     .btn-signup span {
         font-size: 17px;
     }
+    /*Methodology*/
     .methodology h2 {
         font-size: 25px;
     }
@@ -1225,6 +1107,7 @@ input[type=reset] {
     .btn-programs span {
         font-size: 17px;
     }
+    /*History Briefing*/
     #history-briefing h2 {
         font-size: 18px;
     }
@@ -1245,6 +1128,7 @@ input[type=reset] {
     .btn-history span {
         font-size: 17px
     }
+    /*Footer*/
     .social-networks li {
         font-size: 80%;
     }
@@ -1252,6 +1136,7 @@ input[type=reset] {
         font-size: 80%;
         margin-left: 10%;
     }
+    /*Programs*/
     .programs {
         background-image: none;
         background-color: #333;
@@ -1275,6 +1160,7 @@ input[type=reset] {
     .btn-signup-programs span {
         font-size: 17px;
     }
+    /*Facilities*/
     .facilities h2 {
         font-size: 20px;
     }
@@ -1282,6 +1168,7 @@ input[type=reset] {
         font-size: 17px;
         margin-left: 9%;
     }
+    /*Made To Shine*/
     .made-to-shine h2 {
         font-size: 22px;
     }
@@ -1296,13 +1183,11 @@ input[type=reset] {
         height: auto;
         margin: 0;
     }
-
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
         height: auto;
         align-items: center;
-        
     }
     .made-to-shine-container img {
         width: 120%;
@@ -1316,7 +1201,6 @@ input[type=reset] {
     .made-to-shine-container a {
         align-items: center;      
     }
-
     .kaka {
         align-items: center;
         font-size: 16px;
@@ -1351,6 +1235,7 @@ input[type=reset] {
     .antony img {
         width: 70%;
     }
+    /*History*/
     .history-head img {
         width: 80%;
         height: auto;
@@ -1364,10 +1249,12 @@ input[type=reset] {
         font-size: 18px;
         margin-left: 10%;
     }
+    /*Greatest*/
     .greatest h3 {
         width: 100%;
         margin-left: -4%;
     }
+    /*Dream Team*/ 
     .dream-team td>h3 {
         text-align: start;
         padding-left: 10%;
@@ -1381,6 +1268,7 @@ input[type=reset] {
         text-align: center;
         margin-left: 10%;
     }
+    /*Morumbi*/
     .morumbi {
         background-image: none;
         background-color: #ccc4c4;
@@ -1388,6 +1276,7 @@ input[type=reset] {
     .morumbi p {
         width: 90%;
     }
+    /*Fans*/
     .fans {
         margin-right: 10%;
         align-items: center;
@@ -1400,6 +1289,7 @@ input[type=reset] {
         font-size: 22px;
         margin-left: 7%;
     }
+    /*Form heading*/
     #form-signup {
         background-size: cover;
     }
@@ -1409,6 +1299,7 @@ input[type=reset] {
     #formid h3 {
         font-size: 20px;
     }
+    /*Form*/
     .form1 {
         width: 85%;
         margin-left: 8%;
@@ -1425,6 +1316,7 @@ input[type=reset] {
 }
 @media screen and (min-width: 319px) and (max-width: 606px) {
     * {margin: 2px;}
+    /*Head*/
     .header {
         background-image: url(/assets/image/logo_banner_mobile.png);
         background-position: center;
@@ -1453,12 +1345,12 @@ input[type=reset] {
         width: 45%;
         height: auto;
     }
+    /*Main Text*/
     .main-text1 h2 {
         font-size: 19px;
         text-align: center;
         font-weight: 800;
     }
-
     .main-text2 {
         width: 80%;
         margin-left: 11%;
@@ -1474,6 +1366,7 @@ input[type=reset] {
     #main a {
         padding: 4px;
     }
+    /*Methodology*/
     .methodology h2 {
         font-size: 100%;
     }
@@ -1499,6 +1392,7 @@ input[type=reset] {
     .btn-programs span {
         font-size: 16px;
     }
+    /*History Briefing*/
     #history-briefing h2 {
         font-size: 80%;
     }
@@ -1526,6 +1420,7 @@ input[type=reset] {
     .btn-history span {
         font-size: 16px;
     }
+    /*Footer*/
     footer a {
         font-size: 53%;
     }
@@ -1535,6 +1430,7 @@ input[type=reset] {
     footer {
         height: auto;
     }
+    /*Programs*/
     .programs {
         height: auto;
         background-image: none;
@@ -1557,6 +1453,7 @@ input[type=reset] {
     .btn-signup-programs span {
         font-size: 16px;
     }
+    /*Facilities*/
     .facilities h2 {
         font-size: 19px;
     }
@@ -1569,6 +1466,7 @@ input[type=reset] {
     .facilities img {
         width: 100%;
     }
+    /*Made To Shine*/
     .made-to-shine h2 {
         font-size: 22px;
     }
@@ -1586,7 +1484,6 @@ input[type=reset] {
         height: auto;
         margin: 0;
     }
-
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
@@ -1604,7 +1501,6 @@ input[type=reset] {
     .made-to-shine-container a {
         margin-left: 35%;
     }
-
     .kaka {
         font-size: 16px;
         width: 100%;
@@ -1647,8 +1543,8 @@ input[type=reset] {
     } 
     .dream-team table{
         border: none;
-        
     }
+    /*Greatest*/
     .greatest h3 {
         font-size: 18px;
         margin-left: -12%;
@@ -1661,6 +1557,7 @@ input[type=reset] {
         width: 100%;
         margin-left: -5%;
     }
+    /*Dream Team*/
     #dream-team h3 {
         margin-left: 0;
     }
@@ -1686,6 +1583,7 @@ input[type=reset] {
     .dream-team h5 {
         margin-left: 9%;
     }
+    /*Morumbi*/
     .morumbi {
         margin: 0;
         width: 100%;
@@ -1705,13 +1603,16 @@ input[type=reset] {
         font-weight: 300;
         margin-left: -4%;
     }
+    /*Fans*/
     .fans img {
         width: 90%;
         margin-left: 5%;
     }
+    /*Form page*/
     #form-signup {
         background-size: cover;
     }
+    /*Form Heading*/
     .head-form h2 {
         font-size: 22px;
     }
@@ -1719,6 +1620,7 @@ input[type=reset] {
         font-size: 19px;
         margin: 0 2px 0 2px;
     }
+    /*Form*/
     .form1 {
         width: 90%;
         margin-left: 5%;
@@ -1740,4 +1642,3 @@ input[type=reset] {
         margin-left: 33%;
     }
 }
-    
