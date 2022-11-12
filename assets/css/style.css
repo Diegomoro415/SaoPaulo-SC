@@ -955,14 +955,12 @@ input[type=reset] {
     padding: 2% 7%;
     border-radius: 5px;
     background-color: #4CAF50;
-    
-}
-.error_text button>a {
-    color: #ffffff;
+     color: #ffffff;
     text-decoration: none;
     font-size: larger;
     cursor: pointer;
 }
+
 /* Media Querries*/
 
 @media screen and (max-width:1000px) {
