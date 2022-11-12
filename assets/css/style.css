@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@1&family=Lato&family=Orbitron&family=Permanent+Marker&display=swap');
 /*Initial style*/
 * {
     margin: 8px 10px 8px 8px;
@@ -912,6 +912,57 @@ input[type=reset] {
     width: 100%;
     height: 300px;
 }
+/*404 Error*/
+.error{
+    background-image: url(/assets/image/field_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.error_text{
+    background-color: rgba(80, 80, 80, 0.548);
+    text-align: center;
+    width: 30%;
+    margin: 5% 0 0 36%;
+    margin-top: 5%;
+    height: auto;
+    border-radius: 10px;
+}
+.error_text img {
+    width: 55%;
+    margin: 6% 0 4% 0;
+    border-radius: 5px;
+    /* display: inline-block;
+    border-radius: 50%;*/
+    transform:  rotate(360deg);
+    transition-duration: 3s;
+}
+.error_text h1 {
+    color: red;
+    font-size: 200%;
+    font-family: 'Fragment Mono', monospace;
+    margin-bottom: 3%;
+}
+.error_text h3 {
+    font-size: larger;
+    font-weight: lighter;
+}
+.error_text h4 {
+    font-size: large;
+    font-weight: lighter;
+}
+.error_text button {
+    padding: 2% 7%;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    
+}
+.error_text button>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+}
 /* Media Querries*/
 
 @media screen and (max-width:1000px) {
@@ -1313,6 +1364,56 @@ input[type=reset] {
     .gender input {
         margin-left: -5px;
     }
+    /*404 Error*/
+    .error {
+        background-image: url(/assets/image/field_background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .error_text {
+        background-color: rgba(80, 80, 80, 0.548);
+        text-align: center;
+        width: 60%;
+        margin: 3% 0 0 23%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .error_text img {
+        width: 55%;
+        margin: 6% 0 4% 0;
+        border-radius: 5px;
+        /* display: inline-block;
+        border-radius: 50%;*/
+        transform:  rotate(360deg);
+        transition-duration: 3s;
+    }
+    .error_text h1 {
+        color: red;
+        font-size: 200%;
+        font-family: 'Fragment Mono', monospace;
+        margin-bottom: 3%;
+    }
+    .error_text h3 {
+        font-size: larger;
+        font-weight: lighter;
+    }
+    .error_text h4 {
+        font-size: large;
+        font-weight: lighter;
+    }
+    .error_text button {
+        padding: 2% 7%;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        
+    }
+    .error_text button>a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: larger;
+        cursor: pointer;
+    }
 }
 @media screen and (min-width: 319px) and (max-width: 606px) {
     * {margin: 2px;}
@@ -1640,5 +1741,55 @@ input[type=reset] {
     }
     #male {
         margin-left: 33%;
+    }
+    /*404 Error*/
+    .error{
+        background-image: url(/assets/image/field_background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .error_text{
+        background-color: rgba(80, 80, 80, 0.548);
+        text-align: center;
+        width: 75%;
+        margin: 9% 0 0 15%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .error_text img {
+        width: 55%;
+        margin: 6% 0 4% 0;
+        border-radius: 5px;
+        /* display: inline-block;
+        border-radius: 50%;*/
+        transform:  rotate(360deg);
+        transition-duration: 3s;
+    }
+    .error_text h1 {
+        color: red;
+        font-size: 200%;
+        font-family: 'Fragment Mono', monospace;
+        margin-bottom: 3%;
+    }
+    .error_text h3 {
+        font-size: larger;
+        font-weight: lighter;
+    }
+    .error_text h4 {
+        font-size: large;
+        font-weight: lighter;
+    }
+    .error_text button {
+        padding: 2% 7%;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        
+    }
+    .error_text button>a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: larger;
+        cursor: pointer;
     }
 }
