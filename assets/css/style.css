@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(/assets/image/logo_banner.png);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 120px;
@@ -81,7 +81,7 @@ header {
     font-family: 'Orbitron', sans-serif;
     padding-top: 20px;
     background-color: #f3f2f2;
-    background-image: url('../image/banner.jpg');
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border: black solid 3px;
@@ -123,7 +123,7 @@ header {
 }
 /*Section Methodology*/
 .methodology {
-    background-image: url("/assets/image/meth_background_image.jpg");
+    background-image: url("https://diegomoro415.github.io/SaoPaulo-SC/assets/image/meth_background_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -320,7 +320,7 @@ footer p {
     background-color: #f2f2f2;
 }
 .programs {
-    background-image: url(/assets/image/black_background.jpg);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/black_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -358,7 +358,7 @@ footer p {
     width: 29%;
 }
 .academy h3 {
-    background-image: url(/assets/image/academy_image.jpg);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/academy_image.jpg);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -381,7 +381,7 @@ footer p {
     width: 29%;
 }
 .students h3 {
-    background-image: url(/assets/image/student_image.jfif);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/student_image.jfif);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -404,7 +404,7 @@ footer p {
     width: 29%;
 }
 .competition h3 {
-    background-image: url(/assets/image/competiton_image.jpg);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/competiton_image.jpg);
     background-position: center;
     background-size: 100%;
     height: 6em;
@@ -585,7 +585,7 @@ footer p {
 /*Dream Team*/
 #dream-team {
     text-align: center;
-    background-image: url(/assets/image/field_background.jpg);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/field_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px 950px;
@@ -717,7 +717,7 @@ footer p {
     margin: 10px;
     color: #575555;
     text-align: center;
-    background-image: url(/assets/image/grey_background.png);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/grey_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -771,7 +771,7 @@ footer p {
 }
 /* Sign-Up page */
 #form-signup {
-    background-image: url(/assets/image/background1.png);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/background1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -1062,7 +1062,7 @@ input[type=reset] {
 @media screen and (min-width: 607px) and (max-width: 875px)  {
     /*Header*/
     .header {
-        background-image: url(/assets/image/logo_banner_mobile.png);
+        background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner_mobile.png);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -1318,7 +1318,7 @@ input[type=reset] {
     * {margin: 2px;}
     /*Head*/
     .header {
-        background-image: url(/assets/image/logo_banner_mobile.png);
+        background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner_mobile.png);
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
