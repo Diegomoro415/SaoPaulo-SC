@@ -937,7 +937,7 @@ input[type=reset] {
     /* display: inline-block;
     border-radius: 50%;*/
     transform:  rotate(360deg);
-    transition-duration: 3s;
+    transition-duration: 4s;
 }
 .error_text h1 {
     color: red;
@@ -1177,7 +1177,8 @@ input[type=reset] {
     }
     .b-img1 {
         align-items: center;
-        width: 95%;
+        width: 86%;
+        margin: 0 7% 0 7%;
     }
     .history-button>button {
         padding: 7px 18px;
@@ -1338,16 +1339,13 @@ input[type=reset] {
     }
     /*Fans*/
     .fans {
-        margin-right: 10%;
         align-items: center;
     } 
     .fans p {
-        margin-left: 15%;
         font-size: 18px;
     }
     .fans h2 {
         font-size: 22px;
-        margin-left: 7%;
     }
     /*Form heading*/
     #form-signup {
@@ -1680,19 +1678,20 @@ input[type=reset] {
         flex-direction: column;
     }
     .dream-team img {
-        width: 66%;
+        width: 60%;
+        margin-left: 20%;
         height: auto;
     }
-    .dream-team h3, p, h5 {
-        width: 70%;
+    .dream-team h3 {
+        width: 95%;
         text-align: center;
-        margin-left: 5%;
+        margin-left: 2.5%;
     }
     .dream-team p {
-        margin-left: -5%;
+        margin-left: 5%;
     }
     .dream-team h5 {
-        margin-left: 9%;
+        margin-left: 0;
     }
     /*Morumbi*/
     .morumbi {
@@ -1712,7 +1711,6 @@ input[type=reset] {
         font-size: 18px;
         width: 100%;
         font-weight: 300;
-        margin-left: -4%;
     }
     /*Fans*/
     .fans img {
