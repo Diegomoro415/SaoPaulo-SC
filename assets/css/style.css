@@ -1428,6 +1428,7 @@ input[type=reset] {
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
+        margin: 0 1% 0 0;
     }
     .logo {
         margin-top: -20px;
@@ -1657,7 +1658,7 @@ input[type=reset] {
     }
     /*Greatest*/
     .greatest img{
-        margin: 4%;
+        width: 95%;
     }
     /*Dream Team*/
     #dream-team h3 {
