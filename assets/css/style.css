@@ -563,7 +563,6 @@ footer p {
 }
 /*Greatest*/
 .greatest {
-    width: 98.5%;
     height: auto;
     padding: 40px 0 20px 40px;
     padding-left: 40px;
@@ -581,7 +580,7 @@ footer p {
 /*Greatest Image*/
 .greatest img {
     margin: 25px 20px 20px 0;
-    width: 27rem;
+    width: 45rem;
 }
 /*Greatest Text*/
 .greatest h3 {
@@ -1699,9 +1698,18 @@ input[type=reset] {
         width: 100%;
         margin-left: -5%;
     }
+    /*History Head*/
+    .history-head p{
+        width: fit-content;
+        margin: 0 5% 0 5%;
+    }
+    /*Greatest*/
+    .greatest img{
+        margin: 4%;
+    }
     /*Dream Team*/
     #dream-team h3 {
-        margin-left: 0;
+        margin: 0;
     }
     .dream-team tr {
         width: fit-content;
