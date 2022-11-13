@@ -333,6 +333,7 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .programs div {
     padding: 30px 0 0 30px;
@@ -340,7 +341,7 @@ footer p {
 }
 /*Programs Heading*/
 .programs h2 {
-    padding: 20px 0 25px 0;
+    padding: 20px 0 20px 0;
     border-bottom: #f3f2f2 solid;
     margin-bottom: 20px;
 }
@@ -424,7 +425,7 @@ footer p {
     text-transform: capitalize;
 }
 /* programs button */
-.programs-sign-up .btn-signup-programs {
+.programs-container button {
     background-color: rgb(253, 252, 252);
     color: rgb(175, 3, 3);
     border: black solid 3px;
@@ -1200,6 +1201,7 @@ input[type=reset] {
     .programs {
         background-image: none;
         background-color: #333;
+        align-items: center;
     }
     .programs h2 {
         font-size: 22px;
@@ -1227,6 +1229,10 @@ input[type=reset] {
     .facilities p {
         font-size: 17px;
         margin-left: 9%;
+    }
+    .facilities img {
+        width: 100%;
+        height: auto;
     }
     /*Made To Shine*/
     .made-to-shine h2 {
