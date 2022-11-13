@@ -135,6 +135,7 @@ header {
     text-align: center;
     list-style-type: none;
     margin: 30px 0 0 -2px;
+    overflow: hidden;
 }
 /*Methodology Heading*/
 .methodology h2 {
@@ -168,7 +169,7 @@ header {
 }
 /*Methodology center image*/
 #center-meth-img {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin-top: 30px;
     border-radius: 50px;
@@ -188,14 +189,14 @@ header {
     margin-right: 10px;
 }
 /*Button Programs*/
-.btn-programs {
+.methodology button {
     padding: 12px 28px;
-    margin: 0 20px 0 0px;    
+    margin: 0 20px 30px 0px;    
     font-size: 22px;
     text-align: center;
     text-decoration: none;
 }
-.programs-button a {
+.programs-button button{
     text-decoration: none;
     background-color: rgb(252, 5, 5);
     color: rgb(255, 255, 255);
@@ -255,7 +256,7 @@ header {
     color: #f2f2f2;
 }
 /* button history-briefing */
-.history-button a {
+.history-button button {
     background-color: rgb(252, 5, 5);
     color: rgb(255, 255, 255);
     border: none;
@@ -1038,16 +1039,22 @@ input[type=reset] {
         background-color: #CFD8DC;
     }
     /* Methodology */
+    .methodology {
+        margin-left: 1%;
+    }
     #methodology-graph {
         display: flex;
         flex-direction: column;        
-        align-items: center;    
+        align-items: center; 
+        text-align: center; 
+        margin-left: 2%;  
     }
     #methodology-left {
-        margin-left: -30%;
+        margin-top: 2%;
+        margin-left: -2%;
     }
         #methodology-right {
-        margin-right: -15%;
+        margin-right: 2%;
         padding-bottom: 30px;
     }
     /* History-Briefing */
@@ -1150,12 +1157,11 @@ input[type=reset] {
     .methodology {
         align-items: center;
     }
-    .methodology a {
+    .programs-button>button {
         padding: 7px;
-    }
-    .btn-programs span {
         font-size: 17px;
     }
+    
     /*History Briefing*/
     #history-briefing h2 {
         font-size: 18px;
@@ -1474,23 +1480,22 @@ input[type=reset] {
     }
     #methodology-left li{
         font-size: 100%;
-        margin-left: -70%;
+        margin-left: 0;
     }
     #center-meth-img {
         width: 66%;
-        margin-left: -15%;
+        margin-left: 0;
     }
     #methodology-right li {
         font-size: 100%;
-        margin-left: 26%;
+        margin-right: 0;
         width: 80%;
     }
-    .methodology a {
-        padding: 4px;
+    .programs-button>button {
+        padding: 7px 18px;
+        font-size: 17px;
     }
-    .btn-programs span {
-        font-size: 16px;
-    }
+    
     /*History Briefing*/
     #history-briefing h2 {
         font-size: 80%;
