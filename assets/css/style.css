@@ -628,9 +628,10 @@ footer p {
     color: #000000;
 }
 .dream-team img {
-    width: 20rem;
-    height: 23rem;
-    margin: 30px;
+    overflow: hidden;
+    width: 17rem;
+    height: 21rem;
+    margin:10px 2% 10px 10px;
 }
 .dream-team h3 {
     width: 22em;
@@ -1039,6 +1040,17 @@ input[type=reset] {
     .menu-item:hover {
         background-color: #CFD8DC;
     }
+    /*Main Text*/
+    #main {
+        margin-left: 0.5%;
+    }
+    .sign-up-button {
+        margin-left: 6%;
+    }
+    #main button {
+        padding: 7px 18px;
+        font-size: 17px;
+    }
     /* Methodology */
     .methodology {
         margin-left: 1%;
@@ -1071,6 +1083,15 @@ input[type=reset] {
     }
     .b-img1 {
         margin-left: 0;
+    }
+    #history-briefing button {
+        padding: 7px 18px;
+        font-size: 17px;
+    }
+    /*programs*/
+    .programs button {
+        padding: 7px 18px;
+        font-size: 17px;
     }
     .dream-team table{
          border: none;
