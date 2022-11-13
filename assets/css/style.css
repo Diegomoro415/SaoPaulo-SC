@@ -17,7 +17,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(/assets/image/logo_banner.webp);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 90%;
@@ -79,7 +79,7 @@ header {
     font-family: 'Orbitron', sans-serif;
     padding-top: 20px;
     background-color: #f3f2f2;
-    background-image: url(/assets/image/banner.webp);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border: black solid 3px;
@@ -128,7 +128,7 @@ header {
 }
 /*Section Methodology*/
 .methodology {
-    background-image: url(/assets/image/meth_background_image.webp);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/meth_background_image.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
