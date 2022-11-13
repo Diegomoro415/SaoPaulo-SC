@@ -256,7 +256,7 @@ header {
     color: #f2f2f2;
 }
 /* button history-briefing */
-.history-button button {
+#history-briefing button {
     background-color: rgb(252, 5, 5);
     color: rgb(255, 255, 255);
     border: none;
@@ -264,7 +264,7 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 22px;
-    margin: 4px 2px 50px 2px;
+    margin: 14px 2px 10px 2px;
     transition-duration: 0.9s;
     cursor: pointer;
     border-radius: 7px;
@@ -1058,13 +1058,18 @@ input[type=reset] {
         padding-bottom: 30px;
     }
     /* History-Briefing */
-    .hb-container{
+    #history-briefing div {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 1%;
     }
-    .b-img2 {
-        margin-right: 25%;
+    .b-text {
+        margin-left: 0;
+        width: fit-content;
+    }
+    .b-img1 {
+        margin-left: 0;
     }
     .dream-team table{
          border: none;
