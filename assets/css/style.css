@@ -1571,7 +1571,7 @@ input[type=reset] {
     }
     .programs h5 {
         font-size: 18px;
-        margin-left: 11%;
+        margin: 3%
     }
     .programs-container {
         display: flex;
@@ -1579,6 +1579,7 @@ input[type=reset] {
     }
     .programs-container div {
         width: 90%;
+        margin: 3%;
     }
     .btn-signup-programs span {
         font-size: 16px;
@@ -1607,7 +1608,6 @@ input[type=reset] {
     .made-to-shine p {
         font-size: 16px;
         text-align: center;
-        margin-bottom: -20%;
         margin-top: 3%;
     }
     .made-to-shine-container{
@@ -1618,11 +1618,11 @@ input[type=reset] {
         display: flex;
         flex-direction: column;
         height: auto;
-        border: none;
+        border-top: red solid 1px;
+        margin: 5% 2% 2% 2%;
     }
     .made-to-shine-container img {
-        width: 120%;
-        margin-left: -20px;
+        width: 90%;
     }
     .made-to-shine-container h6 {
         margin-top: -30px;
