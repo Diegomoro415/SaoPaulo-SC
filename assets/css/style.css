@@ -134,7 +134,7 @@ header {
     padding-top: 10px;
     text-align: center;
     list-style-type: none;
-    margin: 30px 0 0 -2px;
+    margin: 25px 0 0 -2px;
     overflow: hidden;
 }
 /*Methodology Heading*/
@@ -277,7 +277,6 @@ header {
 }
 /* Footer */
 footer {
-    margin-top: 40px;
     height: 10em;
     text-align: center;
     border: red solid 4px;
@@ -653,12 +652,6 @@ footer p {
     border: rgb(189, 187, 187) solid 5px;
     margin-top: 25px;
 }
-.rc h3 {
-    margin-top: 15px;
-}
-.rc img {
-    width: 70%;
-}
 /*Cafu*/
 .cafu {
     border: rgb(189, 187, 187) solid 5px;
@@ -801,8 +794,8 @@ footer p {
     background-color: #f2f2f2be;
     color: #000000;
     padding: 35px 50px 20px 50px;
-    width: 39%;
-    margin: 30px 0 0px 29%;
+    width: 50%;
+    margin: 30px 25% 0px 25%;
     height: auto;
     box-shadow: 5px 10px 18px #888888;
     
@@ -899,7 +892,7 @@ input[type=submit]:hover {
     text-transform: capitalize;
 }
 input[type=reset] {
-    margin-left: 41%;
+    margin-left: 44%;
     font-size: 16px;
     padding: 5px;
     cursor: pointer;
@@ -1092,22 +1085,23 @@ input[type=reset] {
         flex-direction: column;
     }
     .dream-team img {
-        width: 80%;
+        width: 45%;
+        height: auto;
+        margin-left: 25%;
     }
-    .dream-team h3, p, h5 {
-        width: 80%;
+    .dream-team h3 {
+        width: 95%;
         text-align: center;
-        margin-left: 5%;
-    }
-    .dream-team p {
-        margin-left: -5%;
     }
     .dream-team h5 {
-        margin-left: 9%;
-    }
+        margin-left: 0;    }
     /* Facilities */
     .facilities img {
         width: 45%;
+    }
+    /*Morumbi*/
+    .morumbi {
+        background-size: cover;
     }
     /* Our Support */
     .fans img {
@@ -1115,9 +1109,9 @@ input[type=reset] {
     }
     /* Form */
     .form1 {
-        width: 70%;
+        width: 60%;
         align-content: center;
-        margin-left: 15%;
+        margin: 20px 20% 0 20%; 
         height: auto;
     }    
 }
@@ -1367,8 +1361,8 @@ input[type=reset] {
     }
     /*Form*/
     .form1 {
-        width: 85%;
-        margin-left: 8%;
+        width: 70%;
+        margin-left: 15%;
     }
     .form1 label {
         font-size: 16px;
@@ -1483,6 +1477,9 @@ input[type=reset] {
         padding: 4px;
     }
     /*Methodology*/
+    .methodology {
+        margin-top: 5px;
+    }
     .methodology h2 {
         font-size: 100%;
     }
@@ -1494,13 +1491,13 @@ input[type=reset] {
         margin-left: 0;
     }
     #center-meth-img {
-        width: 66%;
+        width: 70%;
         margin-left: 0;
     }
     #methodology-right li {
         font-size: 100%;
-        margin-right: 0;
-        width: 80%;
+        margin-left: 0;
+        width: 100%;
     }
     .programs-button>button {
         padding: 7px 18px;
@@ -1516,6 +1513,7 @@ input[type=reset] {
     }
     .b-img1 img {
         width: 100%;
+        height: auto;
         margin: 0;
     }
     .b-img2 img{
@@ -1737,8 +1735,15 @@ input[type=reset] {
     }
     /*Form*/
     .form1 {
-        width: 90%;
-        margin-left: 5%;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .form1 label {
+        font-size: 14px;
+    }
+    .form1 input [type=text] {
+        font-size: 12px;
+        width: 100%;
     }
     .gender {
         display: flex;
@@ -1754,6 +1759,9 @@ input[type=reset] {
         margin-left: 33%;
     }
     #male {
+        margin-left: 33%;
+    }
+    input[type=reset] {
         margin-left: 33%;
     }
     /*404 Error*/
