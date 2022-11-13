@@ -169,6 +169,7 @@ header {
 }
 /*Methodology center image*/
 #center-meth-img {
+    width: 100%;
     height: auto;
     margin-top: 30px;
     border-radius: 50px;
