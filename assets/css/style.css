@@ -315,11 +315,11 @@ footer p {
 }
 .programs {
     background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/dark_background.webp);
-    opacity: 90%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;   
+    width: fit-content;
     height: auto;
     
 }
@@ -331,12 +331,12 @@ footer p {
     overflow: hidden;
 }
 .programs div {
-    padding: 30px 0 0 30px;
+    padding: 30px;
     text-align: center;
 }
 /*Programs Heading*/
 .programs h2 {
-    padding: 20px 0 20px 0;
+    padding: 20px;
     border-bottom: #f3f2f2 solid;
     margin-bottom: 20px;
 }
@@ -370,7 +370,7 @@ footer p {
     background-color: #f2f2f2;
     color: black;
     font-size: 18px;
-    padding: 15px 0 15px 0;
+    padding: 15px;
     text-transform: capitalize;
 }
 /*Students*/
@@ -393,7 +393,7 @@ footer p {
     background-color: #f3f2f2;
     color: black;
     font-size: 18px;
-    padding: 15px 0 15px 0;
+    padding: 15px;
     text-transform: capitalize;
 }
 /*Competition*/
@@ -416,7 +416,7 @@ footer p {
     background-color: #f3f2f2;
     color: black;
     font-size: 18px;
-    padding: 15px 0 15px 0;
+    padding: 15px;
     text-transform: capitalize;
 }
 /* programs button */
@@ -440,7 +440,7 @@ footer p {
 /* Facilities */
 .facilities {
     color: black;
-    padding: 20px 35px 20px 35px;
+    padding: 20px 35px;
     height: auto;
 }
 /*Facilities Heading*/
@@ -469,7 +469,7 @@ footer p {
 .made-to-shine {
     background-color: rgba(0, 0, 0, 0.815);
     color: #f3f2f2;
-    padding: 20px 35px 20px 35px;
+    padding: 20px 35px;
 }
 /*made to shine link to wikipedia*/
 .made-to-shine-container a {
@@ -484,7 +484,7 @@ footer p {
 .made-to-shine img {
     width: 28%;
     height: 20em;
-    padding: 25px 20px 25px 15px;
+    padding: 25px 20px;
     border-radius: 50px;
 }
 /*made to shine heading*/
@@ -502,7 +502,7 @@ footer p {
     text-align: center;
 }
 .made-to-shine p {
-    padding: 10px 0 10px 0px;
+    padding: 10px 0;
     margin-top: 50px;
     font-size: 18px;
 }
@@ -518,7 +518,7 @@ footer p {
     font-size: 18px;
     font-weight: 400;
     margin: 4%;
-    padding: 20px 20px 30px 20px;
+    padding: 30px;
     letter-spacing: 1px;
 }
 /*History*/
@@ -1079,6 +1079,10 @@ input[type=reset] {
         padding: 7px 18px;
         font-size: 17px;
     }
+    /* Facilities */
+    .facilities img {
+        width: 45%;
+    }
     .dream-team table{
          border: none;
     }
@@ -1109,10 +1113,6 @@ input[type=reset] {
     }
     .dream-team h5 {
         margin-left: 0;
-    }
-    /* Facilities */
-    .facilities img {
-        width: 45%;
     }
     /*Morumbi*/
     .morumbi {
@@ -1232,34 +1232,22 @@ input[type=reset] {
     .made-to-shine p {
         font-size: 16px;
     }
-    .made-to-shine-container{
-        align-items: center;
-        height: auto;
-        margin: 0;
-    }
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
+        width: fit-content;
         height: auto;
         align-items: center;
     }
     .made-to-shine-container img {
-        width: 120%;
         margin-left: -20px;
     }
     .made-to-shine-container h6 {
         margin-right: 8%;
         margin-top: -30px;
-        width: 100%;
-    }
-    .made-to-shine-container a {
-        align-items: center;      
     }
     .kaka {
-        align-items: center;
         font-size: 16px;
-        width: 100%;
-        margin-left: -1%;
         margin-bottom: 20%;
     }
     .kaka img {
@@ -1267,24 +1255,21 @@ input[type=reset] {
     }
     .casemiro {
         font-size: 16px;
-        width: 100%;
-        margin-bottom: 20%;
+        margin: 20% 0 20% 0;
     }
     .casemiro img {
         width: 70%;
     }
     .lucas {
         font-size: 16px;
-        width: 100%;
-        margin-bottom: 25%;
+        margin: 25% 0 25% 0;
     }
     .lucas img {
         width: 70%;
     }
     .antony {
         font-size: 16px;
-        width: 100%;
-        margin-bottom: 20%;
+        margin: 20% 0 20% 0;
     }
     .antony img {
         width: 70%;
@@ -1564,49 +1549,21 @@ input[type=reset] {
         margin-top: 3%;
     }
     .made-to-shine-container{
-        height: auto;
-        margin: 0;
+        margin: 1.5%;
     }
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
-        height: auto;
         border-top: red solid 1px;
-        margin: 5% 2% 2% 2%;
     }
     .made-to-shine-container img {
-        width: 90%;
+        width: 100%;
     }
     .made-to-shine-container h6 {
-        margin-top: -30px;
-        width: 100%;
+        width: fit-content;
     }
     .made-to-shine-container a {
         margin-left: 35%;
-    }
-    .kaka {
-        font-size: 16px;
-        width: 100%;
-        margin-left: -25px;
-        margin-bottom: 20%;
-    }
-    .casemiro {
-        font-size: 16px;
-        width: 100%;
-        margin-left: -20px;
-        margin-bottom: 20%;
-    }
-    .lucas {
-        font-size: 16px;
-        width: 100%;
-        margin-left: -20px;
-        margin-bottom: 22%;
-    }
-    .antony {
-        font-size: 16px;
-        width: 100%;
-        margin-left: -20px;
-        margin-bottom: 20%;
     }
     .history-head img {
         width: 80%;
