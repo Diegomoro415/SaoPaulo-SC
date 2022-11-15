@@ -314,14 +314,10 @@ footer p {
     background-color: #f2f2f2;
 }
 .programs {
-    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/dark_background.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: rgb(43, 42, 42);
     text-align: center;   
     width: fit-content;
     height: auto;
-    
 }
 .programs-container {
     display: flex;
@@ -333,6 +329,7 @@ footer p {
 .programs div {
     padding: 30px;
     text-align: center;
+    justify-content: space-evenly;
 }
 /*Programs Heading*/
 .programs h2 {
@@ -473,7 +470,7 @@ footer p {
 }
 /*made to shine link to wikipedia*/
 .made-to-shine-container a {
-    margin-left: 40%;
+    margin-left: 45%;
 }
 .made-to-shine a {
     font-size: 18px;
@@ -483,7 +480,7 @@ footer p {
 /*made to shine Images*/
 .made-to-shine img {
     width: 28%;
-    height: 20em;
+    height: 25em;
     padding: 25px 20px;
     border-radius: 50px;
 }
@@ -517,8 +514,7 @@ footer p {
 .made-to-shine div>h6 {
     font-size: 18px;
     font-weight: 400;
-    margin: 4%;
-    padding: 30px;
+    padding-top: 30px;
     letter-spacing: 1px;
 }
 /*History*/
@@ -1183,7 +1179,8 @@ input[type=reset] {
         font-size: 80%;
     }
     footer p {
-        font-size: 80%;
+        font-size: 100%;
+        font-weight: 700;
     }
     /*Programs*/
     .programs {
@@ -1203,6 +1200,7 @@ input[type=reset] {
     }
     .programs-container div {
         width: 90%;
+        margin: 0 5%;
     }
     .programs button {
         padding: 7px;
@@ -1216,7 +1214,6 @@ input[type=reset] {
     }
     .facilities p {
         font-size: 17px;
-        margin-left: 9%;
     }
     .facilities img {
         width: 100%;
@@ -1235,44 +1232,18 @@ input[type=reset] {
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
-        width: fit-content;
         height: auto;
         align-items: center;
+        margin-bottom: 10%;
+        font-size: 14px;
     }
     .made-to-shine-container img {
-        margin-left: -20px;
+        width: fit-content;
     }
     .made-to-shine-container h6 {
-        margin-right: 8%;
-        margin-top: -30px;
-    }
-    .kaka {
-        font-size: 16px;
-        margin-bottom: 20%;
-    }
-    .kaka img {
-        width: 65%;
-    }
-    .casemiro {
-        font-size: 16px;
-        margin: 20% 0 20% 0;
-    }
-    .casemiro img {
-        width: 70%;
-    }
-    .lucas {
-        font-size: 16px;
-        margin: 25% 0 25% 0;
-    }
-    .lucas img {
-        width: 70%;
-    }
-    .antony {
-        font-size: 16px;
-        margin: 20% 0 20% 0;
-    }
-    .antony img {
-        width: 70%;
+        margin: 0 ;
+        padding: 0;
+        width: 90%;
     }
     /*History*/
     .history-head img {
@@ -1491,9 +1462,12 @@ input[type=reset] {
     /*Footer*/
     footer a {
         font-size: 53%;
+        
     }
     footer p {
-        font-size: 60%;
+        font-size: 80%;
+        font-weight: 600;
+        margin-top: 3%;
     }
     footer {
         height: auto;
@@ -1501,7 +1475,6 @@ input[type=reset] {
     /*Programs*/
     .programs {
         position: relative;
-        height: auto;
         z-index: -1;
     }
     .programs h2 {
@@ -1516,8 +1489,8 @@ input[type=reset] {
         flex-direction: column;
     }
     .programs-container div {
-        width: 90%;
-        margin: 3%;
+        width: 97%;
+        margin: 1.5%;
     }
     .btn-signup-programs span {
         font-size: 16px;
@@ -1527,10 +1500,9 @@ input[type=reset] {
         font-size: 19px;
     }
     .facilities p {
+        margin: 0;
         font-size: 17px;
-        text-align: center;
-        width: 100%;
-        margin-left: 2px;
+        text-align: start;
     }
     .facilities img {
         width: 100%;
@@ -1548,9 +1520,6 @@ input[type=reset] {
         text-align: center;
         margin-top: 3%;
     }
-    .made-to-shine-container{
-        margin: 1.5%;
-    }
     .made-to-shine-container div {
         display: flex;
         flex-direction: column;
@@ -1560,10 +1529,13 @@ input[type=reset] {
         width: 100%;
     }
     .made-to-shine-container h6 {
-        width: fit-content;
+        margin-bottom: 10%;
+        width: auto;
+        font-size: 12px;
+        text-align: initial;
     }
-    .made-to-shine-container a {
-        margin-left: 35%;
+    .made-to-shine a {
+        margin: 0 29% 0 29%
     }
     .history-head img {
         width: 80%;
