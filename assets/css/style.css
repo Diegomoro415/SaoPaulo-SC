@@ -111,7 +111,6 @@ header {
     text-decoration: none;
     background-color: rgb(253, 252, 252);
     color: rgb(175, 3, 3);
-    border: black solid 3px;
     transition-duration: 0.4s;
     border-radius: 7px;
     padding: 12px 28px;
@@ -122,9 +121,8 @@ header {
     cursor: pointer;
 }
 .btn-signup:hover {
-    background-color: black;
-    color: white;
-    border: #ffffff solid;
+    background-color: rgb(209, 208, 208);
+    color: red;
 }
 /*Section Methodology*/
 .methodology {
@@ -198,7 +196,7 @@ header {
 }
 .programs-button button{
     text-decoration: none;
-    background-color: rgb(252, 5, 5);
+    background-color: red;
     color: rgb(255, 255, 255);
     border: none;
     transition-duration: 0.4s;
@@ -206,9 +204,8 @@ header {
     border-radius: 7px;
 }
 .btn-programs:hover {
-    background-color: white;
-    color: black;
-    border: red solid;
+    background-color: rgb(184, 1, 1);
+    color: white;
 }
 /*History Briefing*/
 #history-briefing {
@@ -254,20 +251,18 @@ header {
 #history-briefing button {
     background-color: rgb(252, 5, 5);
     color: rgb(255, 255, 255);
-    border: none;
     padding: 12px 38px;
     text-decoration: none;
     font-size: 22px;
     margin: 1%;
-    transition-duration: 0.9s;
+    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 7px;
     bottom: 5px;
 }
 .btn-history:hover {
-    background-color: white;
-    color: black;
-    border: red solid;
+    background-color: #ad0303;
+    color: white;
 }
 /* Footer */
 footer {
@@ -1043,6 +1038,10 @@ input[type=reset] {
     #methodology-right {
         margin: 2%;
     }
+    #center-meth-img {
+        width: fit-content;
+        height: fit-content;
+    }
     .methodology button {
         padding: 7px 18px;
         font-size: 17px;
@@ -1161,6 +1160,10 @@ input[type=reset] {
     }
     .methodology h3 {
         font-size: 22px;
+    }
+    #center-meth-img{
+        width: fit-content;
+        height: auto;
     }
     .programs-button>button {
         padding: 7px;
@@ -1425,7 +1428,9 @@ input[type=reset] {
         font-size: 100%;
     }
     #center-meth-img {
-        width: 80%;
+        width: 90%;
+        height: auto;
+        margin: 0 5 0 5;
     }
     #methodology-right li {
         font-size: 100%;
