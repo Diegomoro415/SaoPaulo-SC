@@ -80,7 +80,7 @@ header {
     padding-top: 20px;
     background-color: #f3f2f2;
     background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/banner.webp);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     border: black solid 3px;
     margin: 0;
