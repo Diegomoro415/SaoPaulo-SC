@@ -523,15 +523,14 @@ footer p {
 }
 /*History Image*/
 .history-head img {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     width: 70%;
     height: 10em;
 }
 /*History text*/
 .history-head h3 {
     border-bottom: #f2f2f2 solid 1px;
-    margin: 10px 99px 10px 99px;
-    padding-bottom: 5px;
+    padding-bottom:10px;
 }
 .history-head p {
     padding-top: 45px;
@@ -543,8 +542,6 @@ footer p {
 .greatest {
     height: auto;
     padding: 40px 0 20px 40px;
-    padding-left: 40px;
-    padding-top: 40px;
     border: #f3f2f2 solid 17px;
     margin-top: 45px;
     font-size: larger;
@@ -558,7 +555,7 @@ footer p {
 /*Greatest Image*/
 .greatest img {
     margin: 25px 20px 20px 0;
-    width: 45rem;
+    width: 37rem;
 }
 /*Greatest Text*/
 .greatest h3 {
@@ -575,13 +572,13 @@ footer p {
     background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/field_background.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1500px 950px;
+    background-size: 100rem 65rem;
 }
 /*Dream Team Image*/
 #dream-team img {
     width: 39%;
     height: 58%;
-    margin-top: 30px;
+    margin: 30px 0 35px 0;
 }
 /*Dream Team text*/
 #dream-team h3 {
@@ -589,7 +586,7 @@ footer p {
     text-align: center;
     margin: 20px 0 0 30px;
     padding-top: 20px;
-    color: #fafafa;
+    color: #000000;
     border: none;
     font-size: 28px;
     font-family: 'Orbitron', sans-serif;
@@ -607,21 +604,19 @@ footer p {
     color: #000000;
 }
 .dream-team img {
-    overflow: hidden;
-    width: 17rem;
-    height: 21rem;
-    margin:10px 2% 10px 10px;
+    width: 15rem;
+    height: 20rem;
 }
 .dream-team h3 {
     width: 22em;
     font-size: 28px;
     letter-spacing: 1px;
-    margin: 30px 0 0 15px;
+    margin: 30px 0 0 3%;
     padding-bottom: 5px;
     border-bottom: #ff0000 solid 2px;
 }
 .dream-team p {
-    margin-left: 15px;
+    margin-left: 4%;
     width: 22em;    
 }
 .dream-team td {
@@ -631,7 +626,7 @@ footer p {
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 1px;
-    margin: 0 0 20px 0;
+    margin: 0 10px 20px 10px;
     padding: 0 20px 0 20px;
 }
 /*Rogerio Ceni*/
@@ -699,15 +694,15 @@ footer p {
     margin: 10px;
     color: #575555;
     text-align: center;
-    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/grey_background.png);
+    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/grey_background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
 .morumbi img {
     display: inline-block;
-    width: 300px;
-    height: 200px;
+    width: 22%;
+    height: 12rem;
     margin: 15px;
     border: #fa0101 groove 3px;
 
@@ -745,8 +740,7 @@ footer p {
 }
 .fans img {
     display: inline-block;
-    left: 5%;
-    margin: 10px 0 20px 3%;
+    margin: 2.2%;
     width: 20%;
     height: 200px;
     border: #d3d0d0 solid 3px;
@@ -892,7 +886,7 @@ input[type=reset] {
 #map iframe {
     margin: 1% 0 1% 0;
     width: 100%;
-    height: 300px;
+    height: 23rem;
 }
 /*404 Error*/
 .error{
@@ -1090,7 +1084,10 @@ input[type=reset] {
     }
     .greatest img {
         width: 100%;
-        margin-left: -5%;
+        margin-left: -2.5%;
+    }
+    .greatest h5 {
+        margin-left: -2.5%;
     }
     /*Dream team*/
     .dream-team td{
@@ -1112,6 +1109,9 @@ input[type=reset] {
     /*Morumbi*/
     .morumbi {
         background-size: cover;
+    }
+    .morumbi img {
+        width: 45%;
     }
     /* Our Support */
     .fans img {
@@ -1265,26 +1265,41 @@ input[type=reset] {
     /*Greatest*/
     .greatest h3 {
         width: 100%;
+    }
+    .greatest img {
+        margin-left: -4%;
+    }
+    .greatest h5 {
         margin-left: -4%;
     }
     /*Dream Team*/ 
+    #dream-team h3 {
+        color: #f2f2f2;
+    }
+    #dream-team img {
+        width: 60%;
+    }
     .dream-team td>h3 {
         text-align: start;
         padding-left: 10%;
     }
     .dream-team td>img {
         width: 50%;
-        height: 50%;
+        height: 100%;
         margin-left: 20%;
     }
     .dream-team td>p {
-        text-align: center;
-        margin-left: 10%;
+        text-align: start;
+        margin-left: 4%;
     }
     /*Morumbi*/
     .morumbi {
         background-image: none;
         background-color: #ccc4c4;
+    }
+    .morumbi img {
+        width: 80%;
+        height: 20rem;
     }
     .morumbi p {
         width: 90%;
@@ -1292,6 +1307,11 @@ input[type=reset] {
     /*Fans*/
     .fans {
         align-items: center;
+    }
+    .fans img {
+        width: 80%;
+        height: 20rem;
+        margin-left: 10%;
     } 
     .fans p {
         font-size: 18px;
@@ -1572,7 +1592,11 @@ input[type=reset] {
     }
     .greatest img {
         width: 100%;
+        height: auto;
         margin-left: -5%;
+    }
+    .greatest h5 {
+        margin-right: 5%;
     }
     /*History Head*/
     .history-head p{
@@ -1587,8 +1611,11 @@ input[type=reset] {
     #dream-team h3 {
         margin: 0;
     }
+    #dream-team img {
+        width: 60%;
+    }
     .dream-team tr {
-        width: fit-content;
+        width: 100%;
     }
     .dream-team td{
         display: flex;
@@ -1598,6 +1625,9 @@ input[type=reset] {
         width: 60%;
         margin-left: 20%;
         height: auto;
+    }
+    .dream-team table {
+        width: 90%;
     }
     .dream-team h3 {
         width: 95%;
