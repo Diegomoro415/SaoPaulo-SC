@@ -1143,6 +1143,11 @@ input[type=reset] {
         width: max-content;
     }
     /*Main text*/
+    #main {
+        background-image: url(/assets/image/banner_mobile.webp);
+        background-size: contain 100%;
+        background-repeat: no-repeat;
+    }
     #main h2 {
         font-size: 24px;
     }
@@ -1421,6 +1426,11 @@ input[type=reset] {
         height: auto;
     }
     /*Main Text*/
+    #main {
+        background-image: url(/assets/image/banner_mobile.webp);
+        background-size: contain 100%;
+        background-repeat: no-repeat;
+    }
     .main-text1 h2 {
         font-size: 19px;
         text-align: center;
