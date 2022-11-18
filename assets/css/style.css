@@ -939,7 +939,7 @@ input[type=reset] {
 
 /* Media Querries*/
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1150px) {
     /* burger menu */
     #menu__toggle {
         opacity: 0;
@@ -1083,8 +1083,8 @@ input[type=reset] {
         flex-direction: column;
     }
     .greatest img {
-        width: 100%;
-        margin-left: -2.5%;
+        width: 70%;
+        margin-left: 15%;
     }
     .greatest h5 {
         margin-left: -2.5%;
@@ -1125,7 +1125,7 @@ input[type=reset] {
         height: auto;
     }    
 }
-@media screen and (min-width: 607px) and (max-width: 875px)  {
+@media screen and (min-width: 607px) and (max-width: 999px)  {
     /*Header*/
     .header {
         background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner_mobile.webp);
