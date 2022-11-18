@@ -65,6 +65,7 @@ header {
     border-right: #000000 solid 1px;
     margin-left: -2px;
     list-style: none;
+    margin-bottom: 5px;
 }
 .menu a:hover {
     color: red;
@@ -845,8 +846,6 @@ footer p {
     font-size: 16px;
     text-transform: uppercase;
 }
-input::-webkit-calendar-picker-indicator { 
-    display: none }
 .form1 input[type=tel], select {
     width: 100%;
     padding: 08px 18px;
@@ -1170,7 +1169,6 @@ input[type=reset] {
     /*Main text*/
     #main {
         background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/banner_mobile.webp);
-        background-size: contain 100%;
         background-repeat: no-repeat;
     }
     #main h2 {
@@ -1453,7 +1451,6 @@ input[type=reset] {
     /*Main Text*/
     #main {
         background-image: url(https://diegomoro415.github.io/SaoPaulo-SC//assets/image/banner_mobile.webp);
-        background-size: contain 100%;
         background-repeat: no-repeat;
     }
     .main-text1 h2 {
@@ -1485,7 +1482,7 @@ input[type=reset] {
     #center-meth-img {
         width: 90%;
         height: auto;
-        margin: 0 5 0 5;
+        margin: 0;
     }
     #methodology-right li {
         font-size: 100%;
