@@ -1013,6 +1013,12 @@ input[type=reset] {
     .menu-item:hover {
         background-color: #CFD8DC;
     }
+    /*Header*/
+    .header {
+        background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/logo_banner_mobile.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     /*Main Text*/
     #main button {
         padding: 7px 18px;
@@ -1059,13 +1065,30 @@ input[type=reset] {
         font-size: 17px;
         margin: 3%;
     }
-    /*programs*/
+    /*Programs*/
     .programs {
         position: relative;
+        text-align: center;   
         z-index: -1;
     }
+    .programs h2 {
+        font-size: 22px;
+    }
+    .programs h5 {
+        font-size: 17px;
+    }
+    .programs-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .programs-container div {
+        width: 90%;
+        margin: 0 5%;
+    }
     .programs button {
-        padding: 7px 18px;
+        padding: 7px;
+    }
+    .btn-signup-programs span {
         font-size: 17px;
     }
     /* Facilities */
