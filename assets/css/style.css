@@ -1482,7 +1482,7 @@ input[type=reset] {
     #center-meth-img {
         width: 90%;
         height: auto;
-        margin: 0;
+        margin: 5;
     }
     #methodology-right li {
         font-size: 100%;
