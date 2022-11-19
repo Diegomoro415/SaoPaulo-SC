@@ -39,35 +39,35 @@
 
 # Project-Goals
 
-## User Goals
+## User-Goals
 - Find a good and safe option to start practicing sport.
 - Find a place that combine expert coachs and a methodology approved by a Pro Club.
 - See the structure of the club.
 - Find a option of course that fits better, from age, skills or gender.
 
-## Site Owner Goals
+## Site-Owner-Goals
 - Increase number of students.
 - Be attractive to find young stars to play for our pro team.
 - Promote our Business.
 - Promote our Club.
 
-# User Experience
+# User-Experience
 
-## Target Audience 
+## Target-Audience 
 - Young people that are interesting to start pratice football.
 - Young people that want to get to know others with the same interest and socialize.
 - Young players that want to learn the technical and tactical of football.
 - Talented young players that want to join to a big club that can provide a chance to became Pro.
 - Parents that want a safe place to sign up their kids to practice football.
 
-## User Requirements an Expectations
+## User-Requrements-an-Expectations
 - Simple and intuitive navigation.
 - Work quickly and easily.
 - A good and responsive presentation.
 - Find address via map contact number and links for more info.
 - Accessibility.
 
-# User Stories
+# User-Stories
 
 ### Users
 1. They want to know about the methodology.
@@ -83,7 +83,7 @@
 
 # Design 
 
-## Design Choices 
+## Design-Choices 
 Webpage was designed with the colours of the club, divided but sections go make a easy and fast way for customers get all the relevant information going through the methodolgy, history and sign-up. 
 
 ## Colour
@@ -118,4 +118,29 @@ the webpage contens 5 pages:
 ## Wireframe
 
 <details><sunmmary>Home</summary>
-<img src="/docs/wireframe">
+<img src="/docs/wireframes/wireframe_home.png">
+</details>
+<details><summary>Programs</summary>
+<img src="/doc/wireframes/wireframe_programs.png">
+</details>
+<details><summary>History</summary>
+<img src="/dov/wireframes/wireframe_history.png">
+</details>
+<details><summary>Sign-Up</summary>
+<img src="/docs/wireframes/wireframe_signup.png">
+</details>
+
+# Technologies Used
+
+## Languages
+- HTML
+- CSS
+
+## Frameworks & Tools
+- Git
+- Github
+- Gitpod
+- Google Fonts
+- Font Awesome
+- Favicon
+- Coolors
