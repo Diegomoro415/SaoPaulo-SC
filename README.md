@@ -229,3 +229,35 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS code of the w
 <details><summary>style.css</summary>
 <img src="docs/validations/style_css_validations.png">
 </details>
+
+## Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Home</summary>
+<img src="docs/validations/lighthouse_index.png">
+<img src="docs/validations/lighthouse_index_mobile.png">
+</details>
+<details><summary>Programs</summary>
+<img src="docs/validations/lighthouse_programs.png">
+<img src="docs/validations/lighthouse_programs_mobile.png">
+</details>
+<details><summary>History</summary>
+<img src="docs/validations/lighthouse_history.png">
+<img src="docs/validations/lighthouse_history_mobile.png">
+</details>
+<details><summary>Sign-Up</summary>
+<img src="docs/validations/lighthouse_signup.png">
+<img src="docs/validations/lighthouse_signup_mobile.png">
+</details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Alienware r3 15
+- Ipad Pro
+- Iphone XS
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Microsoft Egde
+- Mozilla Firefox
