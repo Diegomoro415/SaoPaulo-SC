@@ -182,3 +182,29 @@ The website consist in 4 pages and sixteen features.
 ## Made-to-Shine
 - Allows user to see the case of success
 - Feature contains text and image of players that started in the club and became stars playing overseas and national team.
+
+## History 
+- Introduction to the history of the club.
+
+## Greatest
+- Feature contains a image art of the greastest players.
+- Text explains the connection the club has with great player form different era.
+
+## Dream-Team
+- Feature contains a main picture that show the top 11 players voted by the fans.
+- For each player there is a section with picture and text explaining to users more about them and their history while playing in the club.
+
+## Morumbi
+- At first user can read the history of the stadium (Morumbi).
+- Contians six images of the stadium.
+
+## Support
+- The feature is a homenage to the supporters.
+- Contains text and four images that show the users how important the supporters are.
+
+## Sign-Up
+- Allows user to fill your personal details.
+- Users can choose what programs they want to sign in.
+
+## Map
+- Shows the location on an embeded Google Map.
