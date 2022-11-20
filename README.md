@@ -320,3 +320,12 @@ In order of apearance:
 - [Dream-Team](/assets/image/rai.png): Photo by <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fesportefera.com.br%2Fnoticias%2Ffutebol%2Crai-volta-ao-sao-paulo-relembre-a-carreira-do-terror-do-morumbi%2C70002113270&psig=AOvVaw2ZMSj_RR9qaTnv9sih_mIH&ust=1669057848875000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDSsZO7vfsCFQAAAAAdAAAAABAE"></a>
 - [Dream-Team](/assets/image/tele_santana.webp): Photo by <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fsaopaulofc%2Fstatus%2F1551905211085733888&psig=AOvVaw18U3fnm9Qp_Ot7E-HwVJ7i&ust=1669057435214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLCgkM65vfsCFQAAAAAdAAAAABAE"></a>
 - [404-error](/assets/image/red_card.jpg): Photo by <a href="https://m.media-amazon.com/images/I/41fqscXfUKL._AC_SY1000_.jpg"></a>
+
+## Code
+In order of apearance:
+- The HTML for the responsive [Navbar with toggler](https://alvarotrigo.com/blog/hamburger-menu-css/) 
+
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his feedback, advice, guidance and support.
+- To my colleagues in Code Institute Slack for sharing sharing knowlogde and give support.
