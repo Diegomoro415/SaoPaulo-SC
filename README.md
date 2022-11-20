@@ -208,3 +208,24 @@ The website consist in 4 pages and sixteen features.
 
 ## Map
 - Shows the location on an embeded Google Map.
+
+## HTML Validation
+The W3C Markup Validation Service was used to validate the HTML code of the website. All pages pass with no errors.
+<details><summary>Home</summary>
+<img src="docs/validations/index_validation.png">
+</details>
+<details><summary>Programs</summary>
+<img src="docs/validations/programs_validation.png">
+</details>
+<details><summary>History</summary>
+<img src="docs/validations/history_validation.png">
+</details>
+<details><summary>Sign-Up</summary>
+<img src="docs/validations/sign_up_validation.png">
+</details>
+
+## CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS code of the website. Page pass with no errors. 
+<details><summary>style.css</summary>
+<img src="docs/validations/style_css_validations.png">
+</details>
