@@ -115,7 +115,7 @@ the webpage contens 5 pages:
     - Form where the user can be registred. it contains name, email, gender, age, nationality and they can choose what program they want to be on.
     - A google Map section, where user can see the address and contact number.
 
-## Wireframe
+## Wireframes
 
 <details><sunmmary>Home</summary>
 <img src="/docs/wireframes/wireframe_home.png">
@@ -130,13 +130,13 @@ the webpage contens 5 pages:
 <img src="/docs/wireframes/wireframe_signup.png">
 </details>
 
-# Technologies Used
+# Technologies-Used
 
 ## Languages
 - HTML
 - CSS
 
-## Frameworks & Tools
+## Frameworks-&-Tools
 - Git
 - Github
 - Gitpod
@@ -144,3 +144,13 @@ the webpage contens 5 pages:
 - Font Awesome
 - Favicon
 - Coolors
+
+# Features
+The website consist in 4 pages and sixteen features.
+
+## Logo and Navigation
+- The feature is set on all 4 pages
+- Navigation includes Home, Programs, History and Sign-up. 
+- Responsive navbar, changes to a toggler (hamburger menu) sticky on right top on the screen.
+
+
