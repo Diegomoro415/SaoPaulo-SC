@@ -153,4 +153,32 @@ The website consist in 4 pages and sixteen features.
 - Navigation includes Home, Programs, History and Sign-up. 
 - Responsive navbar, changes to a toggler (hamburger menu) sticky on right top on the screen.
 
+## Home Banner
+- Introduce user the idea of the page.
+- Contains a button tha links to Sign-Up page.
 
+## Methodology
+- Introduce user the methodology used on the programs.
+- Contains a button that links to Programs page.
+
+## History Briefing
+- Contains a image and text.
+- Introduce users to a short part of the history.
+- Contains a button tha links to History page.
+
+## Footer
+- Feature contains icon.
+- Social Media links.
+
+## Programs
+- Contains three section.
+- Show and explains users the difference of category and allows user to choose.
+- Contains a button tha links to Sign-Up page.
+
+## Facilities
+- Feature contains text that explain the structure that the club provide to their students.
+- Contains image that show different areas that involve the structure of the club.
+
+## Made-to-Shine
+- Allows user to see the case of success
+- Feature contains text and image of players that started in the club and became stars playing overseas and national team.
