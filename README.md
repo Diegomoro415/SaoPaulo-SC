@@ -288,39 +288,38 @@ Images not referenced below are owned by the developer.
 
 ### Media
 In order of apearance:
-- [Home-Banner]
-- [Methodology]
-- [History-Briefing]
-- [Programs]
-- [Programs]
-- [Programs]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Facilities]
-- [Made-to-Shine]
-- [Made-to-Shine]
-- [Made-to-Shine]
-- [Made-to-Shine]
-- [History]
-- [Greatest]
-- [Dream-Team-image]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Dream-Team]
-- [Sing-Up]
-- [404-error]
-
+- [Home-Banner](/assets/image/banner.webp): Photo by <a></a>
+- [Methodology](/assets/image/meth_image.webp): Photo by <a></a>
+- [History-Briefing](/assets/image/rogerio_ceni_club_world_cup.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fbiggo.com.br%2Fs%2Frog%25C3%25A9rio%2520ceni%25202005%2F&psig=AOvVaw2OXktU7gU0KXcBSob6_Dat&ust=1669057580240000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOj2ppO6vfsCFQAAAAAdAAAAABAK</a>
+- [Programs](/assets/image/academy_image.webp): Photo by <a></a>
+- [Programs](/assets/image/student_image.webp): Photo by <a></a>
+- [Programs](/assets/image/competition_image.webp): Photo by <a></a>
+- [Facilities](/assets/image/training_center.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lance.com.br%2Fsao-paulo%2Fsao-paulo-abre-inscricoes-para-visita-guiada-ao-ct-de-cotia-veja-precos-e-como-comprar.html&psig=AOvVaw3tCcartx11NXZGq1O4pF-u&ust=1669058143038000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjszJ-8vfsCFQAAAAAdAAAAABAE</a>
+- [Facilities](/assets/image/campus_cotia.webp): Photo by <a>https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.saopaulofc.net%2Festrutura%2Fcfa-cotia&psig=AOvVaw3tCcartx11NXZGq1O4pF-u&ust=1669058143038000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjszJ-8vfsCFQAAAAAdAAAAABAO</a>
+- [Facilities](/assets/image/accomodation.webp): Photo by <a>https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.saopaulofc.net%2Festrutura%2Fcfa-cotia&psig=AOvVaw3tCcartx11NXZGq1O4pF-u&ust=1669058143038000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjszJ-8vfsCFQAAAAAdAAAAABAJ</a>
+- [Facilities](/assets/image/accomodation_room.webp): Photo by <a>https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.saopaulofc.net%2Festrutura%2Fcfa-cotia&psig=AOvVaw3tCcartx11NXZGq1O4pF-u&ust=1669058143038000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjszJ-8vfsCFQAAAAAdAAAAABAT</a>
+- [Facilities](/assets/image/play_room.webp): Photo by <a>https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.saopaulofc.net%2Festrutura%2Fcfa-cotia&psig=AOvVaw3tCcartx11NXZGq1O4pF-u&ust=1669058143038000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjszJ-8vfsCFQAAAAAdAAAAABAY</a>
+- [Facilities](/assets/image/girls_in_cotia.webp): Photo by <a></a>
+- [Facilities](/assets/image/kids_medal.webp): Photo by <a></a>
+- [Facilities](/assets/image/kids_on_stadium.webp): Photo by <a></a>
+- [Made-to-Shine](/assets/image/kaka.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FSaoPauloFC%2Fstatus%2F1385212576884305928&psig=AOvVaw1ZTsrV1BU4YCRZjUTikcja&ust=1669058111227000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCku5C8vfsCFQAAAAAdAAAAABAE</a>
+- [Made-to-Shine](/assets/image/casemiro.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fas.com%2Ffutbol%2Falbum%2Fla-trayectoria-de-casmiro-una-leyenda-madridista-f%2F&psig=AOvVaw3ifhj6HtbBbcWuyMain_Hk&ust=1669058085229000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPj4h4S8vfsCFQAAAAAdAAAAABAF</a>
+- [Made-to-Shine](/assets/image/lucas.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fbleacherreport.com%2Farticles%2F1266035-sao-paulo-united-need-to-offer-a-little-more-to-sign-lucas-moura&psig=AOvVaw13VEWQeXXKL4qbQfZT2_TI&ust=1669058066909000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDyrPu7vfsCFQAAAAAdAAAAABAEhttps://www.google.com/url?sa=i&url=https%3A%2F%2Fbleacherreport.com%2Farticles%2F1266035-sao-paulo-united-need-to-offer-a-little-more-to-sign-lucas-moura&psig=AOvVaw13VEWQeXXKL4qbQfZT2_TI&ust=1669058066909000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDyrPu7vfsCFQAAAAAdAAAAABAE</a>
+- [Made-to-Shine](/assets/image/antony.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.transfermarkt.com%2Fajax-sign-antony-from-sao-paulo-most-expensive-signing-in-eredivisie-history%2Fview%2Fnews%2F354964&psig=AOvVaw0acRXxYZy2Mx_SLbCI9JL6&ust=1669058014122000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC9keK7vfsCFQAAAAAdAAAAABAE</a>
+- [History](/assets/image/titles.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arqtricolor.com%2Ftitulos-do-sao-paulo-fc%2F&psig=AOvVaw0mgpq3b8wCJwze6HvBzv9C&ust=1669058035913000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCLwuy7vfsCFQAAAAAdAAAAABAE</a>
+- [Greatest](/assets/image/greatest.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fsaopaulo1234%2F&psig=AOvVaw1ssMkYOx3cl9WvALveXpXo&ust=1669053409544000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC4wc6qvfsCFQAAAAAdAAAAABAp</a>
+- [Dream-Team-image](/assets/image/dream_team.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fimortaisdofutebol.com%2Ftime-dos-sonhos-do-sao-paulo%2F&psig=AOvVaw1ssMkYOx3cl9WvALveXpXo&ust=1669053409544000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC4wc6qvfsCFQAAAAAdAAAAABAQ</a>
+- [Dream-Team](/assets/image/rogerio_ceni.webp): Photo by <a></a>
+- [Dream-Team](/assets/image/cafu.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fspfcnoticias.com%2Fcafu-revela-que-sempre-foi-torcedor-do-sao-paulo%2F&psig=AOvVaw18GxeNYo5mu2JBmGljf6Ob&ust=1669057992293000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjd3te7vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/dario_pereyra.webp): Photo by <a>https://img.r7.com/images/dario-pereyra-ex-zagueiro-e-o-uruguaio-que-mais-jogou-pelo-sao-paulo-453-partidas-e-37-gols-atuou-no-clube-de-1977-a-1988-e-conquistou-quatro-paulistas-e-dois-brasileiros-15042020074331662?dimensions=771x420&no_crop=true?dimensions=771x420&no_crop=true</a>
+- [Dream-Team](/assets/image/lugano.webp): Photo by <a>https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.saopaulofc.net%2Fnoticias%2Fnoticias%2Ffutebol%2F2016%2F1%2F18%2Frespeito-e-amor-pela-camisa-tricolor!&psig=AOvVaw1Uy1Ner5ae1dWAKKamSftC&ust=1669057969282000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiX3cy7vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/leonardo.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gazetaesportiva.com%2Ftimes%2Fsao-paulo%2Frelembre-5-grandes-partidas-de-leonardo-com-a-camisa-do-sao-paulo%2F&psig=AOvVaw3StJylDQQnwNJ_wBi3VK0o&ust=1669057917432000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiPhrS7vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/mineiro.png): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arqtricolor.com%2Fultimas%2Fautor-do-gol-do-titulo-mundial-em-2005-mineiro-esta-ha-14-anos-morando-fora-do-brasil%2F&psig=AOvVaw1uBQu_VvNOSS5Bl2Acudz5&ust=1669057880286000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKiKqaK7vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/pedro_rocha.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fsaopaulofc%2Fstatus%2F1007598156148891648&psig=AOvVaw1ssMkYOx3cl9WvALveXpXo&ust=1669053409544000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC4wc6qvfsCFQAAAAAdAAAAABAa</a>
+- [Dream-Team](/assets/image/muller.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Frecordtv.r7.com%2Ffotos%2Frelembre-a-carreira-vitoriosa-de-muller-nos-gramados-do-brasil-e-do-mundo-09022022&psig=AOvVaw2s_gXaJYT9AN76Ziuaepx1&ust=1669057815370000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiXw4O7vfsCFQAAAAAdAAAAABAJ</a>
+- [Dream-Team](/assets/image/leonidas.jpg): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.besthomenagens.com.br%2Fhomenageamos-hoje-leonidas-da-silva%2F&psig=AOvVaw0DTkKOOoGO8NNar64flRyz&ust=1669057792268000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNC1s_i6vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/careca.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.terra.com.br%2Fesportes%2Fparceiro-de-maradona-e-idolo-do-sao-paulo-careca-assina-acordo-para-ser-comentarista-esportivo%2Cc99660237efaa9cabef5f1bbce1d51d90pkr89i8.html&psig=AOvVaw2qJs57TrVx2NKIgIPIl6I5&ust=1669057753487000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjs8eW6vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/rai.png): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fesportefera.com.br%2Fnoticias%2Ffutebol%2Crai-volta-ao-sao-paulo-relembre-a-carreira-do-terror-do-morumbi%2C70002113270&psig=AOvVaw2ZMSj_RR9qaTnv9sih_mIH&ust=1669057848875000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDSsZO7vfsCFQAAAAAdAAAAABAE</a>
+- [Dream-Team](/assets/image/tele_santana.webp): Photo by <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fsaopaulofc%2Fstatus%2F1551905211085733888&psig=AOvVaw18U3fnm9Qp_Ot7E-HwVJ7i&ust=1669057435214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLCgkM65vfsCFQAAAAAdAAAAABAE</a>
+- [Sing-Up](/assets/image/background1.webp): Photo by <a></a>
+- [404-error](/assets/image/red_card.jpg): Photo by <a></a>
