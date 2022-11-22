@@ -85,7 +85,8 @@
 11. Wants to registrate users by skills, age and gender.
 12. Wants to show the facilities of the club.
 13. Wants users to get to know more about the history of the club.
-14. Wants user to find the address and links to more information.
+14. Wants user to find the address.
+15. Wants user to find links to more information.
 
 # Design 
 
@@ -164,12 +165,14 @@ The website consist in 4 pages and sixteen features.
 ## Home Banner
 - Introduce user the idea of the page.
 - Contains a button tha links to Sign-Up page.
+- User stories covered: 10, 11
 
 ![Home-Banner](/docs/features/home_banner.png) 
 
 ## Methodology
 - Introduce user the methodology used on the programs.
 - Contains a button that links to Programs page.
+- User stories covered: 1
 
 ![Methodology](/docs/features/home_metholodogy.png)
 
@@ -177,12 +180,14 @@ The website consist in 4 pages and sixteen features.
 - Contains a image and text.
 - Introduce users to a short part of the history.
 - Contains a button tha links to History page.
+- User stories covered: 3, 13
 
 ![History-Briefing](/docs/features/home_history_briefing.png)
 
 ## Footer
 - Feature contains icon.
 - Social Media links.
+- User stories covered: 9, 15
 
 ![Footer](/docs/features/footer.png)
 
@@ -190,35 +195,41 @@ The website consist in 4 pages and sixteen features.
 - Contains three section.
 - Show and explains users the difference of category and allows user to choose.
 - Contains a button tha links to Sign-Up page.
+- User stories covered: 5, 10, 11
 
 ![Programs](/docs/features/programs_programs.png)
 
 ## Facilities
 - Feature contains text that explain the structure that the club provide to their students.
 - Contains image that show different areas that involve the structure of the club.
+- User stories covered: 2, 8, 12
 
 ![Facilities](/docs/features/programs_facilities.png)
 
 ## Made-to-Shine
 - Allows user to see the case of success
 - Feature contains text and image of players that started in the club and became stars playing overseas and national team.
+- User stories covered: 6
 
 ![MadeToShine](/docs/features/programs_made_to_shine.png)
 
 ## History 
 - Introduction to the history of the club.
+- User stories covered: 3, 13
 
 ![History](/docs/features/history.png)
 
 ## Greatest
 - Feature contains a image art of the greastest players.
 - Text explains the connection the club has with great player form different era.
+- User stories covered: 3, 13
 
 ![Greatest](/docs/features/history_greatest.png)
 
 ## Dream-Team
 - Feature contains a main picture that show the top 11 players voted by the fans.
 - For each player there is a section with picture and text explaining to users more about them and their history while playing in the club.
+- User stories covered: 3, 7, 13
 
 ![Dream-Team-Image](/docs/features/history_dream_team_img.png)
 ![Dream-Team](/docs/features/history_dream_team.png)
@@ -226,23 +237,27 @@ The website consist in 4 pages and sixteen features.
 ## Morumbi
 - At first user can read the history of the stadium (Morumbi).
 - Contians six images of the stadium.
+- User stories covered: 3, 13
 
 ![Morumbi](/docs/features/history_morumbi.png)
 
 ## Support
 - The feature is a homenage to the supporters.
 - Contains text and four images that show the users how important the supporters are.
+- User stories covered: 3, 13
 
 ![Supporters](/docs/features/history_support.png)
 
 ## Sign-Up
 - Allows user to fill your personal details.
 - Users can choose what programs they want to sign in.
+- User stories covered: 10, 11
 
 ![Sign-Up](/docs/features/signup_form.png)
 
 ## Map
 - Shows the location on an embeded Google Map.
+- User stories covered: 4, 14
 
 ![Map](/docs/features/signup_map.png)
 
