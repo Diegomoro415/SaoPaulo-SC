@@ -39,35 +39,35 @@
 
 # Project-Goals
 
-## User-Goals
+## User Goals
 - Find a good and safe option to start practicing sport.
 - Find a place that combine expert coachs and a methodology approved by a Pro Club.
 - See the structure of the club.
 - Find a option of course that fits better, from age, skills or gender.
 
-## Site-Owner-Goals
+## Site Owner Goals
 - Increase number of students.
 - Be attractive to find young stars to play for our pro team.
 - Promote our Business.
 - Promote our Club.
 
-# User-Experience
+# User Experience
 
-## Target-Audience 
+## Target Audience 
 - Young people that are interesting to start pratice football.
 - Young people that want to get to know others with the same interest and socialize.
 - Young players that want to learn the technical and tactical of football.
 - Talented young players that want to join to a big club that can provide a chance to became Pro.
 - Parents that want a safe place to sign up their kids to practice football.
 
-## User-Requrements-an-Expectations
+## User Requrements an Expectations
 - Simple and intuitive navigation.
 - Work quickly and easily.
 - A good and responsive presentation.
 - Find address via map contact number and links for more info.
 - Accessibility.
 
-# User-Stories
+# User Stories
 
 ### Users
 1. They want to know about the methodology.
@@ -83,7 +83,7 @@
 
 # Design 
 
-## Design-Choices 
+## Design Choices 
 Webpage was designed with the colours of the club, divided but sections go make a easy and fast way for customers get all the relevant information going through the methodolgy, history and sign-up. 
 
 ## Colour
@@ -121,22 +121,22 @@ the webpage contens 5 pages:
 <img src="/docs/wireframes/wireframe_home.png">
 </details>
 <details><summary>Programs</summary>
-<img src="/doc/wireframes/wireframe_programs.png">
+<img src="/docs/wireframes/wireframe_programs.png">
 </details>
 <details><summary>History</summary>
-<img src="/dov/wireframes/wireframe_history.png">
+<img src="/docs/wireframes/wireframe_history.png">
 </details>
 <details><summary>Sign-Up</summary>
 <img src="/docs/wireframes/wireframe_signup.png">
 </details>
 
-# Technologies-Used
+# Technologies Used
 
 ## Languages
 - HTML
 - CSS
 
-## Frameworks-&-Tools
+## Frameworks & Tools
 - Git
 - Github
 - Gitpod
@@ -153,31 +153,45 @@ The website consist in 4 pages and sixteen features.
 - Navigation includes Home, Programs, History and Sign-up. 
 - Responsive navbar, changes to a toggler (hamburger menu) sticky on right top on the screen.
 
+![Logo and Navbar](/docs/features/header.png)
+
 ## Home Banner
 - Introduce user the idea of the page.
 - Contains a button tha links to Sign-Up page.
 
+![Home-Banner](/docs/features/home_banner.png) 
+
 ## Methodology
 - Introduce user the methodology used on the programs.
 - Contains a button that links to Programs page.
+
+![Methodology](/docs/features/home_metholodogy.png)
 
 ## History Briefing
 - Contains a image and text.
 - Introduce users to a short part of the history.
 - Contains a button tha links to History page.
 
+![History-Briefing](/docs/features/home_history_briefing.png)
+
 ## Footer
 - Feature contains icon.
 - Social Media links.
+
+![Footer](/docs/features/footer.png)
 
 ## Programs
 - Contains three section.
 - Show and explains users the difference of category and allows user to choose.
 - Contains a button tha links to Sign-Up page.
 
+![Programs](/docs/features/programs_programs.png)
+
 ## Facilities
 - Feature contains text that explain the structure that the club provide to their students.
 - Contains image that show different areas that involve the structure of the club.
+
+![Facilities](/docs/features/programs_facilities.png)
 
 ## Made-to-Shine
 - Allows user to see the case of success
@@ -186,28 +200,43 @@ The website consist in 4 pages and sixteen features.
 ## History 
 - Introduction to the history of the club.
 
+![History](/docs/features/history.png)
+
 ## Greatest
 - Feature contains a image art of the greastest players.
 - Text explains the connection the club has with great player form different era.
+
+![Greatest](/docs/features/history_greatest.png)
 
 ## Dream-Team
 - Feature contains a main picture that show the top 11 players voted by the fans.
 - For each player there is a section with picture and text explaining to users more about them and their history while playing in the club.
 
+![Dream-Team-Image](/docs/features/history_dream_team_img.png)
+![Dream-Team](/docs/features/history_dream_team.png)
+
 ## Morumbi
 - At first user can read the history of the stadium (Morumbi).
 - Contians six images of the stadium.
+
+![Morumbi](/docs/features/history_morumbi.png)
 
 ## Support
 - The feature is a homenage to the supporters.
 - Contains text and four images that show the users how important the supporters are.
 
+![Supporters](/docs/features/history_support.png)
+
 ## Sign-Up
 - Allows user to fill your personal details.
 - Users can choose what programs they want to sign in.
 
+![Sign-Up](/docs/features/signup_form.png)
+
 ## Map
 - Shows the location on an embeded Google Map.
+
+![Map](/docs/features/signup_map.png)
 
 ## HTML Validation
 The W3C Markup Validation Service was used to validate the HTML code of the website. All pages pass with no errors.
@@ -227,7 +256,7 @@ The W3C Markup Validation Service was used to validate the HTML code of the webs
 ## CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS code of the website. Page pass with no errors. 
 <details><summary>style.css</summary>
-<img src="docs/validations/style_css_validations.png">
+<img src="docs/validations/style_css_validation.png">
 </details>
 
 ## Performance 
