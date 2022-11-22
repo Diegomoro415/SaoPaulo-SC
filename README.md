@@ -315,6 +315,162 @@ The website was tested on the following browsers:
 - Mozilla Firefox
 - Safari
 
+## Testing user stories
+
+1. They want to know about the methodology
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Methodology | Scroll down at home page | See methodology and a button that links user to choose a programe | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details> 
+
+2. They want to know about the club.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Using Navbar go to programs page locate on rith top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details> 
+
+3. They want to know the history of the club.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| History | Using Navbar go to History page locate on rith top of all 4 pages | a page dedicate to tell the club's history | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+4. They want to know where is the club located.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Located below the form on sign-up page | locate the google map showing the location of the soccer camp | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+5. They want to about the programs.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Programs | Using Navbar go to programs page locate on rith top of all 4 pages | Find three table with three different programs and waht they can offer | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+6. They want to see the successful cases.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Made To Shine | on programs page below programs table and our facilities | Find a section with text and images showing pro player that started playing with us  | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+7. They wanto to know to history of club's idols.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Dream Team | Using Navbar on history page scroll down | A section with the top 11 of all time and their hisotry in the club | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+8. They want to see what the club can offer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Navbar programs page locate on rith top of all 4 pages | Find a program see all structure of the club | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+9. They want to find links to find it on social medias.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | locate on the bottom of all 4 pages | Find links to all club's social midias | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+10. They want to sign-in.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Sign Up Form | Using Navbar, sign-up page locate on rith top of all 4 pages | Find a form to sign in to the program the user chose | Work as expected |
+| Home Banner | click on the button "sign-up" |  Find a form to sign in to the program the user chose | Work as expected |
+| Programs | click on the button "sign-up" | Find a form to sign in to the program the user chose | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+11. Wants to registrate users by skills, age and gender.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Banner | click on the button "sign-up" |  Find a form to sign in to the program the user chose | Work as expected |
+| Programs | click on the button "sign-up" | Find a form to sign in to the program the user chose | Work as expected |
+| Sign Up Form | Using Navbar, sign-up page locate on rith top of all 4 pages | Find a form to sign in to the program the user chose | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+12. Wants to show the facilities of the club.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Using Navbar go to programs page locate on rith top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+13. Wants users to get to know more about the history of the club.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| History | Using Navbar go to History page locate on rith top of all 4 pages | a page dedicate to tell the club's history | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+14. Wants user to find the address.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Located below the form on sign-up page | locate the google map showing the location of the soccer camp | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+15. Wants user to find links to more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | locate on the bottom of all 4 pages | Find links to all club's social midias | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
