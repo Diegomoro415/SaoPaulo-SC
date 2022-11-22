@@ -74,12 +74,18 @@
 2. They want to know about the club.
 3. They want to know the history of the club.
 4. They want to know where is the club located.
+5. They want to about the programs.
+6. They want to see the successful cases.
+7. They wanto to know to history of club's idols.
+8. They want to see what the club can offer.
+9. They want to find links to find it on social medias.
+10. They want to sign-in.
 
 ### Site Owner
-5. Wants to registrate users by skills, age and gender.
-6. Wants to show the facilities of the club.
-7. Wants users to get to know more about the history of the club.
-8. Wants user to find the address and links to more information.
+11. Wants to registrate users by skills, age and gender.
+12. Wants to show the facilities of the club.
+13. Wants users to get to know more about the history of the club.
+14. Wants user to find the address and links to more information.
 
 # Design 
 
@@ -196,6 +202,8 @@ The website consist in 4 pages and sixteen features.
 ## Made-to-Shine
 - Allows user to see the case of success
 - Feature contains text and image of players that started in the club and became stars playing overseas and national team.
+
+![MadeToShine](/docs/features/programs_made_to_shine.png)
 
 ## History 
 - Introduction to the history of the club.
