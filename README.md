@@ -331,7 +331,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Facilities | Using Navbar go to programs page locate on rith top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
+| Facilities | Using Navbar go to programs page locate on the top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
 
 <details><summary>Screenshot</summary>
 <img src="">
