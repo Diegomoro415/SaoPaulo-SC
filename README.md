@@ -324,7 +324,7 @@ The website was tested on the following browsers:
 | Methodology | Scroll down at home page | See methodology and a button that links user to choose a programe | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_testing/testing_user_01.png">
 </details> 
 
 2. They want to know about the club.
@@ -334,7 +334,7 @@ The website was tested on the following browsers:
 | Facilities | Using Navbar go to programs page locate on the top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_testing/testing_user_02.png">
 </details> 
 
 3. They want to know the history of the club.
@@ -344,7 +344,7 @@ The website was tested on the following browsers:
 | History | Using Navbar go to History page locate on rith top of all 4 pages | a page dedicate to tell the club's history | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_testing/testing_user_03.png">
 </details>
 
 4. They want to know where is the club located.
@@ -354,7 +354,7 @@ The website was tested on the following browsers:
 | Map | Located below the form on sign-up page | locate the google map showing the location of the soccer camp | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_testing/testing_user_04.png">
 </details>
 
 5. They want to about the programs.
