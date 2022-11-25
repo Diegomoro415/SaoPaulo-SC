@@ -444,7 +444,7 @@ The website was tested on the following browsers:
 | Facilities | Using Navbar go to programs page locate on rith top of all 4 pages | Find a section with text and images showing club's facilities | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user_testing/testing_user_12.png">
+<img src="docs/user_testing/testing_user_02.png">
 </details>
 
 13. Wants users to get to know more about the history of the club.
@@ -454,7 +454,7 @@ The website was tested on the following browsers:
 | History | Using Navbar go to History page locate on rith top of all 4 pages | a page dedicate to tell the club's history | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user_testing/testing_user_13.png">
+<img src="docs/user_testing/testing_user_03.png">
 </details>
 
 14. Wants user to find the address.
@@ -464,7 +464,7 @@ The website was tested on the following browsers:
 | Map | Located below the form on sign-up page | locate the google map showing the location of the soccer camp | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user_testing/testing_user_14.png">
+<img src="docs/user_testing/testing_user_04.png">
 </details>
 
 15. Wants user to find links to more information.
@@ -474,7 +474,7 @@ The website was tested on the following browsers:
 | Footer | locate on the bottom of all 4 pages | Find links to all club's social midias | Work as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user_testing/testing_user_15.png">
+<img src="docs/user_testing/testing_user_09.png">
 </details>
 
 ## Deployment
