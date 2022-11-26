@@ -979,6 +979,7 @@ input[type=reset] {
         height: 26px;
         cursor: pointer;
         z-index: 1;
+        color: #f2f2f2;
     }
     .menu__btn > span,
     .menu__btn > span::before,
