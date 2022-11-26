@@ -79,8 +79,8 @@ header {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     padding-top: 20px;
+    background-color: #9d0000;
     background-image: url(/assets/image/banner.webp);
-    background-color: #9d0000 ;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: black solid 3px;
