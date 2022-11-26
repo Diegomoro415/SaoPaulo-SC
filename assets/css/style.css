@@ -128,6 +128,7 @@ header {
 .btn-signup:hover {
     background-color: rgb(153, 150, 150);
     color: #FFFFFF;
+    box-shadow: 1px 1px 50px 1px darkslategray;
 }
 /*Section Methodology*/
 .methodology {
@@ -211,6 +212,7 @@ header {
 .btn-programs:hover {
     background-color: rgb(83, 8, 8);
     color: white;
+    box-shadow: 1px 1px 50px 1px red;
 }
 /*History Briefing*/
 #history-briefing {
@@ -268,6 +270,7 @@ header {
 .btn-history:hover{
     background-color: rgb(83, 8, 8);
     color: #ffffff;
+    box-shadow: 1px 1px 50px 1px red;
 }
 /* Footer */
 footer {
@@ -526,7 +529,8 @@ footer p {
     font-size: larger;
     border: #f3f2f2 solid 17px;
     margin-top: 15px;
-    background-color: #8d8a8a;
+    background-color: #A2A0A0;
+    color: #000000;
 }
 /*History Image*/
 .history-head img {
@@ -536,7 +540,7 @@ footer p {
 }
 /*History text*/
 .history-head h3 {
-    border-bottom: #f2f2f2 solid 1px;
+    border-bottom: #000000 solid 1px;
     padding-bottom:10px;
 }
 .history-head p {
@@ -594,10 +598,11 @@ footer p {
     margin: 20px 0 0 30px;
     padding-top: 20px;
     color: #000000;
+    text-shadow: #ffffff 0px 5px 15px ;
     border: none;
     font-size: 28px;
     font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
+    font-weight: 1900;
     font-style: italic;
     text-transform: uppercase;
 }
@@ -699,7 +704,7 @@ footer p {
 /*Morumbi*/
 .morumbi {
     margin: 10px;
-    color: #575555;
+    color: #000000;
     text-align: center;
     background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/grey_background.webp);
     background-repeat: no-repeat;
@@ -725,7 +730,7 @@ footer p {
 }
 .morumbi p {
     font-size: larger;
-    font-weight: 200;
+    font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 40px;
     padding: 0 60px 0 60px;
@@ -864,7 +869,7 @@ footer p {
 }
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #2eb633;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -874,7 +879,7 @@ input[type=submit] {
     font-size: large;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #39913d;
 }
 #program, #country{
     text-transform: capitalize;
