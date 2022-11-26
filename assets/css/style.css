@@ -728,11 +728,11 @@ footer p {
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .morumbi p {
     font-size: larger;
-    font-weight: bolder;
+    font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 40px;
     padding: 0 60px 0 60px;
