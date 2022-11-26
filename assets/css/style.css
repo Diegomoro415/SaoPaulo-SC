@@ -87,16 +87,18 @@ header {
     margin: 0;
 }
 .main-text1 {
-    color: #f8be00;
+    color: white;
+    text-shadow: rgb(150, 137, 137) 5px 5px 5px;
     font-size: 28px;
     font-weight: 400;
     text-transform: uppercase;
-    border: #f8be00 solid 5px;
+    border-bottom: white solid 4px;
 }
 .main-text2 {
     padding-top: 18px; 
     font-size: 23px;
-    font-weight: lighter;
+    text-shadow: #4d4a4a 1px 2px;
+    font-weight: 100;
     font-weight: 500;
     letter-spacing: 2px;
     margin: 2%
@@ -269,6 +271,8 @@ header {
 /* Footer */
 footer {
     height: 10em;
+    font-weight: 500px;
+    font-size: larger;
     text-align: center;
     border: red solid 4px;
     background-color: #f3f2f2;
@@ -279,7 +283,7 @@ footer h3 {
     margin: 15px;
 }
 footer p {
-    color: #a59f9f;
+    color: #111111;
 }
 .social-networks {
     text-align: center;
