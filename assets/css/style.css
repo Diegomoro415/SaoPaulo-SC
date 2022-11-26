@@ -79,7 +79,7 @@ header {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     padding-top: 20px;
-    background-color: #f3f2f2;
+    background-color: #f3f2f2 ;
     background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/banner.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -87,17 +87,18 @@ header {
     margin: 0;
 }
 .main-text1 {
+    color: #f8be00;
     font-size: 28px;
     font-weight: 400;
     text-transform: uppercase;
+    border: #f8be00 solid 5px;
 }
 .main-text2 {
     padding-top: 18px; 
     font-size: 23px;
-    font-family: 'lato', sans-serif;
     font-weight: lighter;
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: 2px;
     margin: 2%
 }
 /*Button sign-up*/
