@@ -201,15 +201,15 @@ header {
 }
 .programs-button button{
     text-decoration: none;
-    background-color: red;
-    color: rgb(255, 255, 255);
+    background-color: #9d0000;
+    color: #FFFFFF;
     border: none;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 7px;
 }
 .btn-programs:hover {
-    background-color: rgb(184, 1, 1);
+    background-color: rgb(83, 8, 8);
     color: white;
 }
 /*History Briefing*/
@@ -253,9 +253,9 @@ header {
     color: #f2f2f2;
 }
 /* button history-briefing */
-#history-briefing button {
-    background-color: rgb(252, 5, 5);
-    color: rgb(255, 255, 255);
+.history-button button {
+    background-color: #9d0000;
+    color: #ffffff;
     padding: 12px 38px;
     text-decoration: none;
     font-size: 22px;
@@ -265,9 +265,9 @@ header {
     border-radius: 7px;
     bottom: 5px;
 }
-.btn-history:hover {
-    background-color: #ad0303;
-    color: white;
+.btn-history:hover{
+    background-color: rgb(83, 8, 8);
+    color: #ffffff;
 }
 /* Footer */
 footer {
