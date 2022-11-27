@@ -708,10 +708,7 @@ footer p {
     margin: 10px;
     color: #000000;
     text-align: center;
-    background-image: url(https://diegomoro415.github.io/SaoPaulo-SC/assets/image/grey_background.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-color: #ccc;
 }
 .morumbi img {
     display: inline-block;
@@ -738,7 +735,6 @@ footer p {
     margin-bottom: 40px;
     padding: 10px 60px 10px 60px;
     text-align: left;
-    background-color: #ccc;
 }
 /*Fans*/
 .fans h2 { 
