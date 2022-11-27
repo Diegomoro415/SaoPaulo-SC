@@ -729,7 +729,7 @@ footer p {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
-    text-shadow: #474747 5px 1px 18px;
+    
 }
 .morumbi p {
     font-size: 20px;
@@ -738,7 +738,6 @@ footer p {
     margin-bottom: 40px;
     padding: 10px 60px 10px 60px;
     text-align: left;
-    box-shadow: #474747 5px 1px 20px;
     background-color: #ccc;
 }
 /*Fans*/
@@ -1000,6 +999,7 @@ input[type=reset] {
     }
     .menu-btn span {
         display: none;
+        color: #000000;
         filter: contrast(1,75);
     }
     #active:checked ~ .menu-btn{
@@ -1741,7 +1741,7 @@ input[type=reset] {
         width: 100%;
         height: auto;
         background-image: none;
-        background-color: #ccc4c4;
+        background-color: #ccc;
     }
     .morumbi img {
         width: 86%;
@@ -1755,6 +1755,9 @@ input[type=reset] {
         font-weight: 300;
     }
     /*Fans*/
+    .fans h2 {
+        font-size: 24px;
+    }
     .fans img {
         width: 90%;
         margin-left: 5%;
