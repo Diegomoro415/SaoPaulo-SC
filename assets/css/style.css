@@ -728,15 +728,18 @@ footer p {
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: #474747 5px 1px 18px;
 }
 .morumbi p {
-    font-size: larger;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 40px;
-    padding: 0 60px 0 60px;
+    padding: 10px 60px 10px 60px;
     text-align: left;
+    box-shadow: #474747 5px 1px 20px;
+    background-color: #ccc;
 }
 /*Fans*/
 .fans h2 { 
@@ -997,6 +1000,7 @@ input[type=reset] {
     }
     .menu-btn span {
         display: none;
+        filter: contrast(1,75);
     }
     #active:checked ~ .menu-btn{
     color: #111111;
