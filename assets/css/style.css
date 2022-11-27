@@ -1710,9 +1710,6 @@ input[type=reset] {
     #dream-team img {
         width: 60%;
     }
-    .dream-team tr {
-        width: 100%;
-    }
     .dream-team td{
         display: flex;
         flex-direction: column;
@@ -1723,7 +1720,8 @@ input[type=reset] {
         height: auto;
     }
     .dream-team table {
-        width: 90%;
+        width:95%;
+        margin-left: 2.5%;
     }
     .dream-team h3 {
         width: 95%;
@@ -1731,6 +1729,7 @@ input[type=reset] {
         margin-left: 2.5%;
     }
     .dream-team p {
+        width: 100%;
         margin-left: 5%;
     }
     .dream-team h5 {
