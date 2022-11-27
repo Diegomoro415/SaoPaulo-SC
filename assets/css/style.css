@@ -925,7 +925,7 @@ input[type=reset] {
     border-radius: 5px;
     /* display: inline-block;
     border-radius: 50%;*/
-    transform:  rotate(360deg);
+    transform: rotate(360deg);
     transition-duration: 4s;
 }
 .error_text h1 {
