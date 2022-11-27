@@ -37,6 +37,8 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
+## Back to Table Of Contents
+
 # Project-Goals
 
 ## User Goals
@@ -122,6 +124,8 @@ the webpage contens 5 pages:
     - Form where the user can be registred. it contains name, email, gender, age, nationality and they can choose what program they want to be on.
     - A google Map section, where user can see the address and contact number.
 
+[Back to Table Of Contents](#table-of-contents)
+
 ## Wireframes
 
 <details><sunmmary>Home</summary>
@@ -190,6 +194,8 @@ The website consist in 4 pages and sixteen features.
 - User stories covered: 9, 15
 
 ![Footer](/docs/features/footer.png)
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Programs
 - Contains three section.
@@ -261,6 +267,8 @@ The website consist in 4 pages and sixteen features.
 
 ![Map](/docs/features/signup_map.png)
 
+[Back to Table Of Contents](#table-of-contents)
+
 ## HTML Validation
 The W3C Markup Validation Service was used to validate the HTML code of the website. All pages pass with no errors.
 <details><summary>Home</summary>
@@ -329,6 +337,8 @@ The website was tested on the following browsers:
 - Microsoft Egde
 - Mozilla Firefox
 - Safari
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Testing user stories
 
@@ -411,6 +421,8 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/user_testing/testing_user_08.png">
 </details>
+
+[Back to Table Of Contents](#table-of-contents)
 
 9. They want to find links to find it on social medias.
 
@@ -500,6 +512,8 @@ The website was tested on the following browsers:
 | Toggler menu low contrast gives accessility error| add a background to toggler menu for better visibility |
 | images gives performance error | change different formats to webp |
 
+[Back to Table Of Contents](#table-of-contents)
+
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
@@ -558,6 +572,8 @@ In order of apearance:
 - [Dream-Team](/assets/image/rai.png): Photo by <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fesportefera.com.br%2Fnoticias%2Ffutebol%2Crai-volta-ao-sao-paulo-relembre-a-carreira-do-terror-do-morumbi%2C70002113270&psig=AOvVaw2ZMSj_RR9qaTnv9sih_mIH&ust=1669057848875000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDSsZO7vfsCFQAAAAAdAAAAABAE">Fesportefera</a>
 - [Dream-Team](/assets/image/tele_santana.webp): Photo by <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fsaopaulofc%2Fstatus%2F1551905211085733888&psig=AOvVaw18U3fnm9Qp_Ot7E-HwVJ7i&ust=1669057435214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLCgkM65vfsCFQAAAAAdAAAAABAE">Sao Paulo Twitter</a>
 - [404-error](/assets/image/red_card.jpg): Photo by <a href="https://m.media-amazon.com/images/I/41fqscXfUKL._AC_SY1000_.jpg">Media Amazon</a>
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Code
 In order of apearance:
