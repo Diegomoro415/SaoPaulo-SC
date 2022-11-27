@@ -60,7 +60,7 @@
 - Talented young players that want to join to a big club that can provide a chance to became Pro.
 - Parents that want a safe place to sign up their kids to practice football.
 
-## User Requrements an Expectations
+## User Requrements and Expectations
 - Simple and intuitive navigation.
 - Work quickly and easily.
 - A good and responsive presentation.
@@ -93,7 +93,7 @@
 ## Design Choices 
 Webpage was designed with the colours of the club, divided but sections go make a easy and fast way for customers get all the relevant information going through the methodolgy, history and sign-up. 
 
-## Colour
+## Colours
 Club has 3 main colors so the site works on these 3 colors (Red, White and Black) also add shadow to red and dark grey to work with black. I used Coolors to find the best shade for each color.
 <br>
 
@@ -294,7 +294,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <img src="docs/validations/accessibility_history.png">
 </details>
 <details><summary>Sign-Up</summary>
-<img src="docs/validations/accessibility_sign_up.png">
+<img src="docs/validations/ accessibility_sign_up.png">
 </details>
 
 ## Performance 
