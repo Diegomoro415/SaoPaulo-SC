@@ -995,6 +995,9 @@ input[type=reset] {
     background: #ffffff;
     transition: all 0.3s ease-in-out;
     }
+    .menu-btn span {
+        display: none;
+    }
     #active:checked ~ .menu-btn{
     color: #111111;
     }
@@ -1476,12 +1479,13 @@ input[type=reset] {
         font-size: 140%;
         width: max-content;
         text-align: center;
-        margin-left: 20%;
+        margin-left: 16%;
     }
     .logo h2 {
         font-size: 130%;
         text-align: center;
-        margin-left: 18%;
+        margin-left: 11%;
+        font-weight: 600;
         width: max-content;
     }
     .wrapper {
@@ -1491,15 +1495,15 @@ input[type=reset] {
     }
     .menu-btn {
         padding-top: -10px;
-        right: 7%;
+        right: 5%;
         margin: 10px;
         height: 58px;
         width: 40px;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 700;
     }
     .wrapper, .menu-btn {
-        top: 10%;
+        top: 1%;
     }
     .wrapper a {
         font-size: 18px;
