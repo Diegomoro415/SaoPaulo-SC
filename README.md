@@ -88,6 +88,7 @@
 13. Wants users to get to know more about the history of the club.
 14. Wants user to find the address.
 15. Wants user to find links to more information.
+16. Wants a 404 page that brings user back to Home page
 
 # Design 
 
@@ -138,6 +139,9 @@ the webpage contens 5 pages:
 </details>
 <details><summary>Sign-Up</summary>
 <img src="/docs/wireframes/wireframe_signup.png">
+</details>
+<details><summary>404</summary>
+<img src="/docs/wireframes/wireframe_404.png">
 </details>
 
 # Technologies Used
@@ -266,6 +270,12 @@ The website consist in 4 pages and sixteen features.
 
 ![Map](/docs/features/signup_map.png)
 
+## 404 Error
+- 404 page with a button that brings user back to Home page.
+- User stories covered: 16
+
+![404](/docs/features/404_error.png) 
+
 [Back to Table Of Contents](#table-of-contents)
 
 ## HTML Validation
@@ -281,6 +291,9 @@ The W3C Markup Validation Service was used to validate the HTML code of the webs
 </details>
 <details><summary>Sign-Up</summary>
 <img src="docs/validations/sign_up_validation.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validations/404_validation.png">
 </details>
 
 ## CSS Validation
@@ -302,6 +315,9 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 </details>
 <details><summary>Sign-Up</summary>
 <img src="docs/validations/accessibility_sign_up.webp">
+</details>
+<details><summary>Sign-Up</summary>
+<img src="docs/validations/accessibility_404.webp">
 </details>
 
 ## Performance 
@@ -501,6 +517,16 @@ The website was tested on the following browsers:
 
 <details><summary>Screenshot</summary>
 <img src="docs/user_testing/testing_user_09.png">
+</details>
+
+16. Wants a 404 page that brings user back to Home page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 | Error page | Links user back to Home page | Work as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user_testing/testing_user_404.png">
 </details>
 
 ## Bugs
