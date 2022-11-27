@@ -316,7 +316,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <details><summary>Sign-Up</summary>
 <img src="docs/validations/accessibility_sign_up.webp">
 </details>
-<details><summary>Sign-Up</summary>
+<details><summary>404</summary>
 <img src="docs/validations/accessibility_404.webp">
 </details>
 
