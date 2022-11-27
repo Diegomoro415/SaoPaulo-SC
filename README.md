@@ -492,6 +492,14 @@ The website was tested on the following browsers:
 <img src="docs/user_testing/testing_user_09.png">
 </details>
 
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Toggler menu with empty label gives accessility error | add a span and give display none value |
+| Toggler menu low contrast gives accessility error| add a background to toggler menu for better visibility |
+| images gives performance error | change different formats to webp |
+
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
