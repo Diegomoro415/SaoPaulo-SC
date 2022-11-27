@@ -280,7 +280,7 @@ header {
 /* Footer */
 footer {
     height: 10em;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: larger;
     text-align: center;
     border: red solid 4px;
@@ -607,7 +607,7 @@ footer p {
     box-shadow: 0px 5px 30px black;
     font-size: 28px;
     font-family: 'Orbitron', sans-serif;
-    font-weight: 1900;
+    font-weight: 900;
     font-style: italic;
     text-transform: uppercase;
 }
@@ -1002,7 +1002,6 @@ input[type=reset] {
     .menu-btn span {
         display: none;
         color: #000000;
-        filter: contrast(1,75);
     }
     #active:checked ~ .menu-btn{
     color: #111111;
@@ -1023,7 +1022,6 @@ input[type=reset] {
     margin: 15px 0;
     }
     .wrapper ul li a{
-    color: none;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -1500,7 +1498,6 @@ input[type=reset] {
         width: 100%;
     }
     .menu-btn {
-        padding-top: -10px;
         right: 5%;
         margin: 10px;
         height: 58px;
