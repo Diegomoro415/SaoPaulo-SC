@@ -5,7 +5,7 @@
 
 [Live webpage](https://diegomoro415.github.io/SaoPaulo-SC/)
 
-## Table of Content
+## Table of Contents
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
@@ -37,7 +37,6 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
-## Back to Table Of Contents
 
 # Project-Goals
 
