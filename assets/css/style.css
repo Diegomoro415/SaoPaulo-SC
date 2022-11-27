@@ -984,13 +984,13 @@ input[type=reset] {
     line-height: 50px;
     border-radius: 30%;
     font-size: 30px;
-    color: #000000;
+    color: #f2f2f2;
     font-weight: 500;
     cursor: pointer;
     /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: #ffffff;
+    background: #474747;
     transition: all 0.3s ease-in-out;
     }
     .menu-btn span {
